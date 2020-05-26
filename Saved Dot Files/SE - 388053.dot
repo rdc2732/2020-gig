@@ -1,0 +1,38 @@
+digraph G {
+    label = "SE - 388053[44]: OBS - PPA: Develop System Design for PPA Replacement";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014914 (3)"
+        ;
+        label = "EA 15.1 (3)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1008052 (5)"
+        ;
+        label = "EA 15.2 (5)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014915 (3)" ->       
+        "1017554 (3)"
+        [style=invis];
+        label = "EA 15.3 (6)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1017623 (2)" ->       
+        "1017656 (3)"
+        [style=invis];
+        label = "EA 15.4 (5)";
+    }
+}

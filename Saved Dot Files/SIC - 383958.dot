@@ -1,0 +1,62 @@
+digraph G {
+    label = "SIC - 383958[51]: Bulk Planning SAR Input Enhancement";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "383961 (2)" ->       
+        "383962 (3)" ->       
+        "383963 (1)" ->       
+        "383971 (2)" ->       
+        "1003895 (8)" ->       
+        "1016755 (5)"
+        [style=invis];
+        label = "EA 15.1 (21)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "383970 (1)" ->       
+        "1003896 (8)" ->       
+        "1016756 (5)" ->       
+        "1019316 (2)"
+        [style=invis];
+        label = "EA 15.2 (16)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "383968 (2)" ->       
+        "383973 (1)"
+        [style=invis];
+        label = "EA 15.3 (3)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "383960 (1)" ->       
+        "383967 (1)" ->       
+        "383976 (1)" ->       
+        "1016757 (3)" ->       
+        "1016758 (3)" ->       
+        "1016759 (3)"
+        [style=invis];
+        label = "EA 15.4 (12)";
+    }
+    "1019316 (2)" -> "383970 (1)";
+    "383976 (1)" -> "383960 (1)";
+    "383973 (1)" -> "383960 (1)";
+    "383971 (2)" -> "1019316 (2)";
+    "383968 (2)" -> "383960 (1)";
+    "383968 (2)" -> "383976 (1)";
+    "383968 (2)" -> "383973 (1)";
+    "383963 (1)" -> "383960 (1)";
+    "383962 (3)" -> "383960 (1)";
+    "383962 (3)" -> "383970 (1)";
+    "383961 (2)" -> "383960 (1)";
+    "383960 (1)" -> "383967 (1)";
+}

@@ -1,0 +1,57 @@
+digraph G {
+    label = "Labradors - 1013750[83]: Lab - SWIT Revitalize - Assessment, inventory, drawings, plan RAN and SWIT";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013777 (2)" ->       
+        "1013779 (1)" ->       
+        "1017310 (3)" ->       
+        "1019284 (2)"
+        [style=invis];
+        label = "EA 15.1 (8)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013780 (2)" ->       
+        "1013782 (1)" ->       
+        "1013783 (1)" ->       
+        "1017312 (3)"
+        [style=invis];
+        label = "EA 15.2 (7)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013784 (2)" ->       
+        "1013785 (1)" ->       
+        "1017314 (3)"
+        [style=invis];
+        label = "EA 15.3 (6)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013778 (1)" ->       
+        "1013786 (2)" ->       
+        "1017315 (3)" ->       
+        "1018154 (1)"
+        [style=invis];
+        label = "EA 15.4 (7)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013781 (1)" ->       
+        "1013787 (1)" ->       
+        "1017316 (2)"
+        [style=invis];
+        label = "EA 15.5 (4)";
+    }
+}

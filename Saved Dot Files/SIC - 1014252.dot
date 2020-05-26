@@ -1,0 +1,51 @@
+digraph G {
+    label = "SIC - 1014252[56]: Notify MFTs to perform OTA-FT following bootstrap OTA-FT (trouble ticket  INC000004670352)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014255 (3)" ->       
+        "1014257 (3)"
+        [style=invis];
+        label = "EA 15.1 (6)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014258 (1)" ->       
+        "1014263 (5)" ->       
+        "1017211 (5)"
+        [style=invis];
+        label = "EA 15.2 (11)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014256 (1)" ->       
+        "1014264 (2)"
+        [style=invis];
+        label = "EA 15.3 (3)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014265 (1)" ->       
+        "1014266 (1)"
+        [style=invis];
+        label = "EA 15.4 (2)";
+    }
+    "1014265 (1)" -> "1014266 (1)";
+    "1014264 (2)" -> "1014265 (1)";
+    "1014263 (5)" -> "1014265 (1)";
+    "1014258 (1)" -> "1014265 (1)";
+    "1014257 (3)" -> "1014265 (1)";
+    "1014256 (1)" -> "1014265 (1)";
+    "1014255 (3)" -> "1014263 (5)";
+    "1014255 (3)" -> "1014257 (3)";
+    "1014255 (3)" -> "1014265 (1)";
+    "1014255 (3)" -> "1014264 (2)";
+}

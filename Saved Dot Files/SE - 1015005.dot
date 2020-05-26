@@ -1,0 +1,40 @@
+digraph G {
+    label = "SE - 1015005[60]: OBS - Active MQ: Create Design for Active MQ Replacement";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015807 (3)"
+        ;
+        label = "EA 15.1 (3)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015806 (2)" ->       
+        "1015809 (3)"
+        [style=invis];
+        label = "EA 15.2 (5)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015808 (3)" ->       
+        "1017555 (2)"
+        [style=invis];
+        label = "EA 15.3 (5)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015007 (3)" ->       
+        "1016473 (3)" ->       
+        "1017556 (3)"
+        [style=invis];
+        label = "EA 15.4 (9)";
+    }
+}

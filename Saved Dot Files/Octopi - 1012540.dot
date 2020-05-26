@@ -1,0 +1,49 @@
+digraph G {
+    label = "Octopi - 1012540[20]: Spares Plan (CDRL A004)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1012548 (2)"
+        ;
+        label = "EA 15.1 (2)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1012547 (2)" ->       
+        "1012550 (2)"
+        [style=invis];
+        label = "EA 15.2 (4)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1012552 (1)" ->       
+        "1012554 (1)" ->       
+        "1019740 (2)"
+        [style=invis];
+        label = "EA 15.3 (4)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1012556 (2)" ->       
+        "1016870 (2)"
+        [style=invis];
+        label = "EA 15.4 (4)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1012562 (2)" ->       
+        "1012563 (1)"
+        [style=invis];
+        label = "EA 15.5 (3)";
+    }
+}

@@ -1,0 +1,85 @@
+
+
+cust
+         RTCid  Parent     Type  ...                Team SP Blocks
+1     1011684  342054    Story  ...                 SIC  1    NaN
+10    1011649  395871    Story  ...                TOFF  2    NaN
+40    1011486  396819    Story  ...               Magic  1    NaN
+41    1011484  385856    Story  ...               Magic  2    NaN
+42    1011483  385856    Story  ...               Magic  3    NaN
+...       ...     ...      ...  ...                 ... ..    ...
+6473   290711  347073  Feature  ...               Magic  0    NaN
+6511   290268  257560    Story  ...  System Engineering  2    NaN
+6536   284314  297335    Story  ...               Tools  3    NaN
+6595   279283  248400  Feature  ...           Labradors  0    NaN
+6996   257560  242141  Feature  ...               Magic  0    NaN
+
+[1581 rows x 8 columns]
+
+
+blockList
+        RTCid   Blocks
+0    1011370  1006877
+1    1009929  1009930
+2    1009928  1009929
+3    1008736   381528
+4    1008621  1007544
+..       ...      ...
+138   342802   342873
+139   334396   344115
+140   318432   318439
+141   318432   390060
+142   318420   318418
+
+[143 rows x 2 columns]
+
+
+storyList
+         RTCid  Parent Sprint  SP
+1     1011684  342054   14.2   1
+10    1011649  395871   14.2   2
+40    1011486  396819   14.1   1
+41    1011484  385856   14.3   2
+42    1011483  385856   14.3   3
+...       ...     ...    ...  ..
+5897   318389  318380   14.1   1
+6085   305904  297335   14.3   1
+6306   293610  279283   14.5   5
+6511   290268  257560   14.3   2
+6536   284314  297335   14.3   3
+
+[1447 rows x 4 columns]
+
+
+new_cust
+        Start  Feature Sprint  SP   Blocks
+0    1011370   384036   14.3   2  1006877
+1    1009929   318380   14.1   2  1009930
+2    1009928   318380   14.1   1  1009929
+3    1008736   381524   14.4   5   381528
+4    1008621  1007536   14.4   2  1007544
+..       ...      ...    ...  ..      ...
+134   342802   293338   14.2   8   342873
+135   334396   297335   14.3   5   344115
+136   318432   318430   14.1   3   318439
+137   318432   318430   14.1   3   390060
+138   318420  1011279   14.3   3   318418
+
+[139 rows x 5 columns]
+
+
+featureList
+         RTCid  ...                                            Summary
+879   1007569  ...  TD 20-06: MUOS Space Support Enhanced Alternat...
+1051  1006843  ...  Define MUOS Guard Updates/Process for File Bas...
+1209  1005740  ...              OBS - DSN GW: Develop Capability Spec
+1258  1005343  ...               DMSMS Tracker Submittal (CDRL A007))
+1623  1002089  ...  Update Refresher Training Materials to Include...
+...       ...  ...                                                ...
+6176   297335  ...  RAN Dev Env (RDE) Transition to Production Part 2
+6317   293338  ...         SWIT Dev Env (SDE) Create Developer WS VMs
+6473   290711  ...  TD 19-10: Deploy AWARE-NMF Connectivity Change...
+6595   279283  ...  Lab - TXO Ericsson - Create and update HIGH pr...
+6996   257560  ...       TD 19-10 Finalize AWARE Design Documentation
+
+[69 rows x 3 columns]

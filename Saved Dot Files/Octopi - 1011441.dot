@@ -1,0 +1,23 @@
+digraph G {
+    label = "Octopi - 1011441[21]: Annual Level of Repair Assessment (LORA): Review & Update the LORA Created and Delivered in 2019 (CDRL A010)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1011467 (2)" ->       
+        "1016876 (1)" ->       
+        "1016877 (1)" ->       
+        "1017874 (1)"
+        [style=invis];
+        label = "EA 15.3 (5)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1011469 (3)"
+        ;
+        label = "EA 15.4 (3)";
+    }
+}

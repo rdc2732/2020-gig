@@ -1,0 +1,20 @@
+digraph G {
+    label = "WWTS - 1015911[53]: Implement Solution for the DL Power Spike";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1009456 (5)"
+        ;
+        label = "EA 15.3 (5)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1017162 (5)"
+        ;
+        label = "EA 15.4 (5)";
+    }
+}

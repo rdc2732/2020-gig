@@ -1,0 +1,151 @@
+digraph G {
+    label = "MUOS PI 15 Features";
+    rankdir = LR;
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "[06] 1005403";
+        label = "PI 17 - In Progress";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "[07] 1012588";
+        "[18] 1005321";
+        "[20] 1012540";
+        "[21] 1011441";
+        "[22] 1012485";
+        "[26] 342054";
+        "[28] 1014596";
+        "[29] 1014595";
+        "[30] 1014597";
+        "[32] 1014602";
+        "[33] 1012748";
+        "[35] 383165";
+        "[36] 380808";
+        "[37] 384084";
+        "[38] 1008506";
+        "[39] 1002345";
+        "[40] 1002381";
+        "[41] 1007900";
+        "[43] 354871";
+        "[53] 1015911";
+        "[58] 1014387";
+        "[60] 1015005";
+        "[61] 1006191";
+        "[63] 1007536";
+        "[64] 1013452";
+        "[65] 1013136";
+        "[68] 358656";
+        "[69] 392058";
+        "[84] 1012570";
+        "[85] 353134";
+        label = "PI 16 - In Progress";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "[77] 340486";
+        label = "PI 16 - Candidate";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "[13] 396001";
+        "[76] 390441";
+        label = "PI 16";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "[14] 396508";
+        label = "EA 16.1";
+    }
+    subgraph cluster_6 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "[01] 1011150";
+        "[02] 395853";
+        "[03] 395688";
+        "[04] 395897";
+        "[05] 395114";
+        "[08] 1013534";
+        "[09] 1011070";
+        "[10] 1013657";
+        "[11] 372921";
+        "[15] 1010421";
+        "[17] 1011295";
+        "[19] 1011419";
+        "[23] 1011394";
+        "[24] 1010653";
+        "[34] 1008620";
+        "[49] 1012996";
+        "[75] 1002583";
+        "[78] 1011001";
+        "[83] 1013750";
+        label = "EA 15.5";
+    }
+    subgraph cluster_7 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "[12] 376446";
+        "[27] 1006376";
+        "[31] 1014598";
+        "[42] 385442";
+        "[44] 388053";
+        "[45] 1013234";
+        "[47] 1004171";
+        "[48] 297335";
+        "[50] 293371";
+        "[51] 383958";
+        "[54] 381524";
+        "[56] 1014252";
+        "[57] 385632";
+        "[59] 1015439";
+        "[62] 1015153";
+        "[66] 332951";
+        "[67] 396669";
+        "[70] 393265";
+        "[71] 342163";
+        "[73] 387446";
+        "[74] 1001062";
+        "[79] 1014491";
+        "[80] 1014023";
+        "[82] 1013496";
+        label = "EA 15.4";
+    }
+    subgraph cluster_8 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "[25] 1002477";
+        "[46] 377437";
+        label = "EA 15.3";
+    }
+    subgraph cluster_9 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "[52] 1009453";
+        label = "EA 15.2";
+    }
+    subgraph cluster_10 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "[16] 395855";
+        "[55] 1001912";
+        "[72] 387448";
+        label = "EA 15.1";
+    }
+    "[26] 342054" -> "[NR] 1013259";
+    "[50] 293371" -> "[NR] 293375";
+    "[52] 1009453" -> "[NR] 1017077";
+}

@@ -1,0 +1,21 @@
+digraph G {
+    label = "Tools - 293371[50]: RAN Dev Env (RDE) Network Upgrade of MUOS Tools - OSSRC migration";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "302848 (3)"
+        ;
+        label = "EA 15.2 (3)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "302854 (2)" ->       
+        "303911 (5)"
+        [style=invis];
+        label = "EA 15.4 (7)";
+    }
+}

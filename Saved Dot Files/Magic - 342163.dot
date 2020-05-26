@@ -1,0 +1,57 @@
+digraph G {
+    label = "Magic - 342163[71]: Site Redlines for TACLANE Obsolescence (Identified during EAD 11 deployment)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "342166 (1)" ->       
+        "342168 (1)" ->       
+        "366831 (2)" ->       
+        "371467 (1)" ->       
+        "371479 (3)" ->       
+        "376480 (2)" ->       
+        "392224 (1)" ->       
+        "392225 (1)" ->       
+        "392226 (2)"
+        [style=invis];
+        label = "EA 15.1 (14)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "342171 (3)" ->       
+        "364368 (2)"
+        [style=invis];
+        label = "EA 15.2 (5)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "356945 (2)" ->       
+        "1011309 (1)" ->       
+        "1018244 (2)" ->       
+        "1018245 (3)"
+        [style=invis];
+        label = "EA 15.3 (8)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "342165 (1)" ->       
+        "342172 (1)" ->       
+        "1002994 (1)" ->       
+        "1018250 (1)" ->       
+        "1019376 (1)"
+        [style=invis];
+        label = "EA 15.4 (5)";
+    }
+    "1011309 (1)" -> "1019376 (1)";
+    "342171 (3)" -> "342165 (1)";
+    "342168 (1)" -> "342165 (1)";
+    "342166 (1)" -> "342165 (1)";
+    "342165 (1)" -> "342172 (1)";
+}

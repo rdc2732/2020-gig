@@ -1,0 +1,28 @@
+digraph G {
+    label = "{{chart_label}}";
+ 
+    {% for sprint, stories in clusters.items() %}
+    subgraph cluster_{{ loop.index }} {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        {% for storyId, storySP in stories %}
+        {% if loop.index == loop.length %}
+        "{{ storyId }} ({{ storySP }})" 
+        {% if loop.length > 1 %}
+        [style=invis];
+        {% else %}
+        ;
+        "{{ storyId }} ({{ storySP }})" ->       
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        label = "{{ sprint }}";
+    }
+    {% endfor %}
+
+    {% for storyId, storySP, blockerId, blockerSP in vectors %}
+    "{{ storyId }} ({{ storySP }})" -> "{{ blockerId }} ({{ blockerSP }})";
+    {% endfor %}
+}
+

@@ -1,0 +1,48 @@
+digraph G {
+    label = "SIC - 384084[37]: OBS - HW: Design and Implement changes to FM System (Netcool) for Nutanix HW and Application VMs";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1016639 (3)" ->       
+        "1016641 (3)" ->       
+        "1016642 (2)"
+        [style=invis];
+        label = "EA 15.1 (8)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1016643 (3)" ->       
+        "1016644 (3)" ->       
+        "1016646 (5)" ->       
+        "1016647 (1)" ->       
+        "1016678 (1)"
+        [style=invis];
+        label = "EA 15.2 (13)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1016649 (2)" ->       
+        "1016651 (3)" ->       
+        "1016675 (3)"
+        [style=invis];
+        label = "EA 15.3 (8)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1016287 (3)" ->       
+        "1016674 (3)" ->       
+        "1016677 (2)" ->       
+        "1016679 (1)" ->       
+        "1016682 (1)"
+        [style=invis];
+        label = "EA 15.4 (10)";
+    }
+}

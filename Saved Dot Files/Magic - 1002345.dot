@@ -1,0 +1,14 @@
+digraph G {
+    label = "Magic - 1002345[39]: OBS - HLR: Upgrade HP HLR/AuC HW & SW";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1002361 (1)" ->       
+        "1008399 (1)" ->       
+        "1018062 (3)"
+        [style=invis];
+        label = "EA 15.2 (5)";
+    }
+}

@@ -1,0 +1,40 @@
+digraph G {
+    label = "Alicorn - 1014597[30]: TO-9: Develop and Test ULX Manager and Monitor and Control";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015253 (2)" ->       
+        "1015819 (8)" ->       
+        "1015823 (5)" ->       
+        "1016366 (2)" ->       
+        "1017842 (3)"
+        [style=invis];
+        label = "EA 15.2 (20)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015820 (5)" ->       
+        "1015824 (8)" ->       
+        "1016367 (2)" ->       
+        "1017546 (2)" ->       
+        "1017843 (3)"
+        [style=invis];
+        label = "EA 15.3 (20)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015821 (5)" ->       
+        "1015825 (5)" ->       
+        "1016368 (2)" ->       
+        "1017547 (1)" ->       
+        "1017845 (2)"
+        [style=invis];
+        label = "EA 15.4 (15)";
+    }
+}

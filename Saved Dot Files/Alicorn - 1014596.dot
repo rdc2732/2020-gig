@@ -1,0 +1,48 @@
+digraph G {
+    label = "Alicorn - 1014596[28]: TO-9: Develop Channel Processor Prototype for ULX";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015608 (8)" ->       
+        "1015609 (5)"
+        [style=invis];
+        label = "EA 15.1 (13)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015610 (8)" ->       
+        "1015611 (8)" ->       
+        "1015802 (3)"
+        [style=invis];
+        label = "EA 15.2 (19)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015612 (5)" ->       
+        "1015613 (5)" ->       
+        "1015813 (3)" ->       
+        "1016880 (3)" ->       
+        "1018281 (3)" ->       
+        "1018282 (3)"
+        [style=invis];
+        label = "EA 15.3 (22)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015614 (5)" ->       
+        "1015615 (5)" ->       
+        "1015814 (3)" ->       
+        "1017433 (2)" ->       
+        "1017434 (2)"
+        [style=invis];
+        label = "EA 15.4 (17)";
+    }
+}

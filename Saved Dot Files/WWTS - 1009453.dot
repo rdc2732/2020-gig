@@ -1,0 +1,27 @@
+digraph G {
+    label = "WWTS - 1009453[52]: Determine Cause of DL Power Spikes causing RNC Congestion";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1017016 (2)" ->       
+        "1017017 (2)" ->       
+        "1017165 (3)" ->       
+        "1017173 (3)" ->       
+        "1017920 (1)"
+        [style=invis];
+        label = "EA 15.1 (11)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1009455 (2)" ->       
+        "1011704 (2)" ->       
+        "1017182 (3)" ->       
+        "1017209 (3)"
+        [style=invis];
+        label = "EA 15.2 (10)";
+    }
+}

@@ -1,0 +1,41 @@
+digraph G {
+    label = "Alicorn - 1014602[32]: TO-9: Build ULX System 1 and 2";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014604 (2)"
+        ;
+        label = "EA 15.1 (2)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015992 (1)" ->       
+        "1017509 (1)"
+        [style=invis];
+        label = "EA 15.2 (2)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015254 (1)" ->       
+        "1015993 (2)" ->       
+        "1017510 (2)"
+        [style=invis];
+        label = "EA 15.3 (5)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015994 (2)" ->       
+        "1017511 (2)" ->       
+        "1017978 (2)"
+        [style=invis];
+        label = "EA 15.4 (6)";
+    }
+}

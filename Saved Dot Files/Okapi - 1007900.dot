@@ -1,0 +1,60 @@
+digraph G {
+    label = "Okapi - 1007900[41]: OBS - HBSS: Prepare HBSS for Deployment to Site";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "387230 (5)" ->       
+        "389828 (5)" ->       
+        "390080 (5)" ->       
+        "1013698 (5)" ->       
+        "1014425 (2)" ->       
+        "1014715 (8)" ->       
+        "1016174 (5)" ->       
+        "1016608 (5)"
+        [style=invis];
+        label = "EA 15.1 (40)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1004848 (5)" ->       
+        "1006939 (3)" ->       
+        "1007428 (2)" ->       
+        "1014426 (8)" ->       
+        "1016176 (3)" ->       
+        "1017767 (1)"
+        [style=invis];
+        label = "EA 15.2 (22)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "384140 (2)" ->       
+        "1007429 (2)" ->       
+        "1014424 (5)" ->       
+        "1016175 (5)" ->       
+        "1017453 (5)" ->       
+        "1017454 (3)" ->       
+        "1017769 (1)"
+        [style=invis];
+        label = "EA 15.3 (23)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "389789 (2)" ->       
+        "390239 (2)" ->       
+        "1004847 (5)" ->       
+        "1007430 (2)" ->       
+        "1013699 (5)" ->       
+        "1016668 (3)"
+        [style=invis];
+        label = "EA 15.4 (19)";
+    }
+    "1013698 (5)" -> "387230 (5)";
+}

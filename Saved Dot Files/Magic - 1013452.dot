@@ -1,0 +1,49 @@
+digraph G {
+    label = "Magic - 1013452[64]: MUOS Geolocation Support, Maintenance  Zeta EAD 18 (includes Ephemeris to SIPRNet)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1006417 (2)" ->       
+        "1006437 (5)" ->       
+        "1013455 (3)"
+        [style=invis];
+        label = "EA 15.2 (10)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013424 (5)" ->       
+        "1013425 (3)" ->       
+        "1013430 (3)" ->       
+        "1014629 (3)"
+        [style=invis];
+        label = "EA 15.3 (14)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1006435 (1)" ->       
+        "1006436 (1)" ->       
+        "1013426 (3)" ->       
+        "1013454 (1)" ->       
+        "1013461 (3)" ->       
+        "1014631 (1)" ->       
+        "1014645 (1)"
+        [style=invis];
+        label = "EA 15.4 (11)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013463 (1)"
+        ;
+        label = "EA 15.5 (1)";
+    }
+    "1013461 (3)" -> "1013463 (1)";
+    "1013425 (3)" -> "1013426 (3)";
+}

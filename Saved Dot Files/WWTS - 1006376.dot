@@ -1,0 +1,52 @@
+digraph G {
+    label = "WWTS - 1006376[27]: MAMA2 Cleanup (including fix for PWI 1006103)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1007061 (2)" ->       
+        "1007255 (1)" ->       
+        "1007260 (2)" ->       
+        "1015854 (1)" ->       
+        "1017608 (3)" ->       
+        "1017834 (1)"
+        [style=invis];
+        label = "EA 15.1 (10)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1007256 (1)" ->       
+        "1007261 (2)" ->       
+        "1017611 (5)" ->       
+        "1017626 (1)" ->       
+        "1018358 (3)"
+        [style=invis];
+        label = "EA 15.2 (12)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1007257 (1)" ->       
+        "1007262 (1)" ->       
+        "1017612 (3)"
+        [style=invis];
+        label = "EA 15.3 (5)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1007060 (1)" ->       
+        "1007258 (1)" ->       
+        "1015855 (1)" ->       
+        "1015856 (1)" ->       
+        "1017613 (1)"
+        [style=invis];
+        label = "EA 15.4 (5)";
+    }
+    "1007260 (2)" -> "1007255 (1)";
+}

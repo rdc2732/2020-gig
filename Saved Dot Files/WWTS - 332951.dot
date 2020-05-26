@@ -1,0 +1,64 @@
+digraph G {
+    label = "WWTS - 332951[66]: Add/update IETM alarm recovery procedures for RBS alarms (5 of 6)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1004308 (2)" ->       
+        "1004314 (2)" ->       
+        "1012605 (2)" ->       
+        "1012606 (1)" ->       
+        "1012614 (1)" ->       
+        "1018025 (2)" ->       
+        "1018030 (1)" ->       
+        "1018069 (1)"
+        [style=invis];
+        label = "EA 15.1 (12)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014141 (2)" ->       
+        "1017304 (3)" ->       
+        "1017308 (3)" ->       
+        "1017330 (1)" ->       
+        "1018027 (1)" ->       
+        "1019959 (1)"
+        [style=invis];
+        label = "EA 15.2 (11)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014142 (2)" ->       
+        "1016338 (3)" ->       
+        "1017184 (1)" ->       
+        "1017305 (2)" ->       
+        "1017309 (3)" ->       
+        "1018028 (2)" ->       
+        "1018031 (1)" ->       
+        "1018032 (1)"
+        [style=invis];
+        label = "EA 15.3 (15)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1012608 (2)" ->       
+        "1012611 (1)" ->       
+        "1016339 (1)" ->       
+        "1017307 (2)" ->       
+        "1017333 (1)" ->       
+        "1017570 (1)" ->       
+        "1018033 (1)" ->       
+        "1018071 (1)" ->       
+        "1019153 (1)"
+        [style=invis];
+        label = "EA 15.4 (11)";
+    }
+    "1012605 (2)" -> "1004314 (2)";
+}

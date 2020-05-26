@@ -1,0 +1,20 @@
+digraph G {
+    label = "{{team_name}}";
+    rankdir=LR;
+ 
+    {% for record in records %}
+    subgraph cluster_{{ loop.index }} {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        {% for vector in records[record] %}
+        {{ vector }};
+        {% endfor %}
+        label = "{{record}}";
+
+    }
+    {% endfor %}
+
+}
+
+

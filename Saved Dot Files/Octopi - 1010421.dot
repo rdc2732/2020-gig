@@ -1,0 +1,45 @@
+digraph G {
+    label = "Octopi - 1010421[15]: PI 15 Supply Support Tracking (Recurring)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1010423 (5)" ->       
+        "1013675 (2)"
+        [style=invis];
+        label = "EA 15.1 (7)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1010424 (5)"
+        ;
+        label = "EA 15.2 (5)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1010425 (5)"
+        ;
+        label = "EA 15.3 (5)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1010439 (3)"
+        ;
+        label = "EA 15.4 (3)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1010440 (5)"
+        ;
+        label = "EA 15.5 (5)";
+    }
+}

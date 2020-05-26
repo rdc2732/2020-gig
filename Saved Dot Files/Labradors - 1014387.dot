@@ -1,0 +1,41 @@
+digraph G {
+    label = "Labradors - 1014387[58]: TO 6: PI 15 Support of ADI/EMI/PRISM Integration";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014388 (1)" ->       
+        "1014390 (3)" ->       
+        "1014493 (5)" ->       
+        "1014496 (2)"
+        [style=invis];
+        label = "EA 15.2 (11)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014389 (1)" ->       
+        "1014494 (2)" ->       
+        "1014495 (2)"
+        [style=invis];
+        label = "EA 15.3 (5)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1018128 (1)"
+        ;
+        label = "EA 15.4 (1)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1018129 (1)"
+        ;
+        label = "EA 15.5 (1)";
+    }
+}

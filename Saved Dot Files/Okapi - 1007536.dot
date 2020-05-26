@@ -1,0 +1,65 @@
+digraph G {
+    label = "Okapi - 1007536[63]: OBS: Create a Development Concept/Architecture for 2-Factor Authentication (2-FA)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1010718 (1)" ->       
+        "1010749 (3)" ->       
+        "1011619 (1)" ->       
+        "1011620 (1)" ->       
+        "1011627 (3)" ->       
+        "1011630 (3)" ->       
+        "1014571 (1)"
+        [style=invis];
+        label = "EA 15.1 (13)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1011621 (1)" ->       
+        "1011622 (2)" ->       
+        "1011623 (1)" ->       
+        "1011624 (2)" ->       
+        "1011626 (5)" ->       
+        "1018018 (3)"
+        [style=invis];
+        label = "EA 15.2 (14)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1010726 (2)" ->       
+        "1010733 (5)" ->       
+        "1010747 (5)" ->       
+        "1011633 (1)" ->       
+        "1018022 (2)"
+        [style=invis];
+        label = "EA 15.3 (15)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1011629 (3)"
+        ;
+        label = "EA 15.4 (3)";
+    }
+    "1018018 (3)" -> "1018022 (2)";
+    "1011620 (1)" -> "1011626 (5)";
+    "1011620 (1)" -> "1011622 (2)";
+    "1011620 (1)" -> "1011623 (1)";
+    "1011620 (1)" -> "1011624 (2)";
+    "1011620 (1)" -> "1011621 (1)";
+    "1011620 (1)" -> "1011629 (3)";
+    "1011620 (1)" -> "1011633 (1)";
+    "1011619 (1)" -> "1011620 (1)";
+    "1010749 (3)" -> "1018018 (3)";
+    "1010718 (1)" -> "1010733 (5)";
+    "1010718 (1)" -> "1010726 (2)";
+    "1010718 (1)" -> "1010747 (5)";
+    "1010718 (1)" -> "1010749 (3)";
+}

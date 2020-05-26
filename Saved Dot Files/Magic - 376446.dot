@@ -1,0 +1,43 @@
+digraph G {
+    label = "Magic - 376446[12]: Update Call Bank Servers to Use Connected AWARE Architecture to support IATT";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1006669 (5)" ->       
+        "1006670 (3)" ->       
+        "1019745 (5)"
+        [style=invis];
+        label = "EA 15.1 (13)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "385601 (5)" ->       
+        "1004700 (2)" ->       
+        "1006453 (2)" ->       
+        "1018186 (8)"
+        [style=invis];
+        label = "EA 15.2 (17)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1006654 (5)" ->       
+        "1018187 (5)"
+        [style=invis];
+        label = "EA 15.3 (10)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "385604 (1)" ->       
+        "385605 (3)"
+        [style=invis];
+        label = "EA 15.4 (4)";
+    }
+}

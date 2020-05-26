@@ -1,0 +1,47 @@
+digraph G {
+    label = "Okapi - 385442[42]: OBS - NET: Determine Network Architecture and Design of the MUOS Ground System and Develop an Execution Plan";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "392158 (3)" ->       
+        "1006606 (3)" ->       
+        "1006614 (2)" ->       
+        "1008103 (3)" ->       
+        "1016309 (1)" ->       
+        "1016319 (5)" ->       
+        "1016324 (2)"
+        [style=invis];
+        label = "EA 15.1 (19)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1006622 (5)" ->       
+        "1016323 (5)" ->       
+        "1017414 (1)"
+        [style=invis];
+        label = "EA 15.2 (11)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1016329 (5)" ->       
+        "1016330 (5)"
+        [style=invis];
+        label = "EA 15.3 (10)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1016331 (3)" ->       
+        "1016332 (5)" ->       
+        "1016333 (5)"
+        [style=invis];
+        label = "EA 15.4 (13)";
+    }
+}

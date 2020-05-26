@@ -1,0 +1,42 @@
+digraph G {
+    label = "Alicorn - 1014598[31]: TO-9: Develop Build and Development Tools";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014599 (3)" ->       
+        "1014600 (5)" ->       
+        "1018253 (8)" ->       
+        "1018254 (8)"
+        [style=invis];
+        label = "EA 15.1 (24)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015998 (3)" ->       
+        "1016003 (3)"
+        [style=invis];
+        label = "EA 15.2 (6)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015999 (3)" ->       
+        "1016004 (3)"
+        [style=invis];
+        label = "EA 15.3 (6)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1016000 (3)" ->       
+        "1016005 (2)"
+        [style=invis];
+        label = "EA 15.4 (5)";
+    }
+}

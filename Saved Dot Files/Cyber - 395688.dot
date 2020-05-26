@@ -1,0 +1,71 @@
+digraph G {
+    label = "Cyber - 395688[3]: Cyber: TO3 IA Patching - PI 15 (Recurring)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395704 (5)" ->       
+        "395713 (2)" ->       
+        "1014505 (3)" ->       
+        "1017751 (1)" ->       
+        "1017752 (1)" ->       
+        "1018174 (3)" ->       
+        "1018613 (1)"
+        [style=invis];
+        label = "EA 15.1 (16)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395703 (3)" ->       
+        "1014504 (3)" ->       
+        "1018343 (3)" ->       
+        "1018344 (2)" ->       
+        "1018614 (1)"
+        [style=invis];
+        label = "EA 15.2 (12)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395692 (3)" ->       
+        "1014500 (3)" ->       
+        "1018615 (1)"
+        [style=invis];
+        label = "EA 15.3 (7)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395696 (3)" ->       
+        "395698 (2)" ->       
+        "395712 (2)" ->       
+        "1014501 (3)" ->       
+        "1014502 (2)" ->       
+        "1014508 (2)" ->       
+        "1018177 (1)" ->       
+        "1018616 (1)"
+        [style=invis];
+        label = "EA 15.4 (16)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395699 (2)" ->       
+        "395701 (1)" ->       
+        "395709 (3)" ->       
+        "1014503 (2)" ->       
+        "1014506 (2)" ->       
+        "1014507 (3)" ->       
+        "1017768 (1)" ->       
+        "1017882 (2)" ->       
+        "1018617 (1)"
+        [style=invis];
+        label = "EA 15.5 (17)";
+    }
+}

@@ -1,0 +1,28 @@
+digraph G {
+    label = "Octopi - 1012570[84]: SC Preventive Maintenance Activity for 2020";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1012571 (1)"
+        ;
+        label = "EA 15.2 (1)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1012577 (2)"
+        ;
+        label = "EA 15.4 (2)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1012576 (2)"
+        ;
+        label = "EA 15.5 (2)";
+    }
+}

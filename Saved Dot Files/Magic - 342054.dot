@@ -1,0 +1,57 @@
+digraph G {
+    label = "Magic - 342054[26]: Complete development of Sicily Connected AWARE";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1009932 (1)" ->       
+        "1009933 (1)" ->       
+        "1013874 (3)" ->       
+        "1016159 (2)"
+        [style=invis];
+        label = "EA 15.1 (7)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1009934 (5)" ->       
+        "1012839 (3)" ->       
+        "1014165 (5)"
+        [style=invis];
+        label = "EA 15.2 (13)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1007833 (3)" ->       
+        "1014089 (1)"
+        [style=invis];
+        label = "EA 15.3 (4)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1006762 (1)" ->       
+        "1007780 (2)" ->       
+        "1007877 (3)" ->       
+        "1012736 (2)" ->       
+        "1013872 (3)" ->       
+        "1013875 (3)" ->       
+        "1013885 (3)" ->       
+        "1013886 (2)"
+        [style=invis];
+        label = "EA 15.4 (19)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1007836 (5)"
+        ;
+        label = "EA 15.5 (5)";
+    }
+}

@@ -1,0 +1,54 @@
+digraph G {
+    label = "WWTS - 396669[67]: Add/update IETM alarm recovery procedures for RCG alarms Part 2";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "396677 (1)" ->       
+        "1015511 (5)" ->       
+        "1018037 (1)"
+        [style=invis];
+        label = "EA 15.1 (7)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "396672 (2)" ->       
+        "1015512 (3)" ->       
+        "1017567 (1)" ->       
+        "1018038 (1)"
+        [style=invis];
+        label = "EA 15.2 (7)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "396680 (1)" ->       
+        "1015514 (2)" ->       
+        "1017568 (1)" ->       
+        "1018036 (1)" ->       
+        "1018133 (1)"
+        [style=invis];
+        label = "EA 15.3 (6)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "396673 (1)" ->       
+        "396678 (1)" ->       
+        "396682 (1)" ->       
+        "1015515 (1)" ->       
+        "1017569 (1)" ->       
+        "1018035 (1)"
+        [style=invis];
+        label = "EA 15.4 (6)";
+    }
+    "396680 (1)" -> "396682 (1)";
+    "396673 (1)" -> "396682 (1)";
+    "396672 (2)" -> "396682 (1)";
+    "396672 (2)" -> "396680 (1)";
+}

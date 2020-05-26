@@ -1,0 +1,47 @@
+digraph G {
+    label = "SE - 387446[73]: Implement updates towards establishment of MUOS Essential System Documentation baseline";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014408 (3)" ->       
+        "1014413 (2)"
+        [style=invis];
+        label = "EA 15.1 (5)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014399 (1)" ->       
+        "1014400 (1)" ->       
+        "1014409 (3)" ->       
+        "1014414 (1)"
+        [style=invis];
+        label = "EA 15.2 (6)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014410 (3)" ->       
+        "1014415 (1)" ->       
+        "1014421 (2)" ->       
+        "1015314 (2)" ->       
+        "1016704 (1)"
+        [style=invis];
+        label = "EA 15.3 (9)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014401 (1)" ->       
+        "1014402 (1)" ->       
+        "1014411 (2)" ->       
+        "1016408 (1)"
+        [style=invis];
+        label = "EA 15.4 (5)";
+    }
+}

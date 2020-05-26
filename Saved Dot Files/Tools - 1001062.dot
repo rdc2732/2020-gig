@@ -1,0 +1,51 @@
+digraph G {
+    label = "Tools - 1001062[74]: RAN Dev Env (RDE) Post Transition Cleanup";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1001064 (1)"
+        ;
+        label = "EA 15.1 (1)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "320237 (1)" ->       
+        "330522 (1)" ->       
+        "1001066 (1)" ->       
+        "1001075 (1)"
+        [style=invis];
+        label = "EA 15.2 (4)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "358712 (3)" ->       
+        "375207 (5)" ->       
+        "384599 (2)" ->       
+        "391765 (5)" ->       
+        "1014372 (1)"
+        [style=invis];
+        label = "EA 15.3 (16)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "288363 (3)"
+        ;
+        label = "EA 15.4 (3)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "303336 (3)"
+        ;
+        label = "EA 15.5 (3)";
+    }
+}

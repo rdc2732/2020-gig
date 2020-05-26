@@ -1,0 +1,599 @@
+,BlockerId,BlockedId
+0,1009453,1017077
+1,1006843,1007167
+2,385428,385429
+3,385422,385428
+4,385422,385431
+5,385422,385430
+6,384136,1007900
+7,384036,380808
+8,381606,381659
+9,381603,381627
+10,368169,369536
+11,342054,1013259
+12,328729,311386
+13,327793,327823
+14,313740,310609
+15,313740,310578
+16,313740,310299
+17,313740,310443
+18,313740,309972
+19,313740,310532
+20,310297,310018
+21,310297,313740
+22,310018,310295
+23,293371,293375
+24,292429,270631
+25,290618,290622
+26,288136,291060
+27,283333,293238
+28,274035,273909
+29,273932,273909
+30,262648,262662
+31,259557,232525
+
+,Team,FeatureId,Summary
+6691,Alicorn,302643,ETISP eRxIM increase single threshold parameter to eight parameters (one per feederlink)
+5034,Alicorn,355228,RF and Tracking Alignment Site # 3 (Relo) - WH
+5017,Alicorn,355645,OBS - ETI: Software Re-Design of ETISP to support Option 3
+4966,Alicorn,358656,"Address missing and ""not appropriate for O-level operator"" ET alarm recovery procedures"
+4957,Alicorn,358881,Updates for ET Alarm Recovery Procedures [O-Level - Needs Updates]
+4880,Alicorn,360449,OBS - ETI: Option 3 System Design Review
+4552,Alicorn,371602,Understand eRxIM response parameters and develop a framework to evaluate the impact of eRxIM on operations
+4171,Alicorn,384153,ETI - TPM: Prototype and Refactor ETI Manager Design Solution 
+4159,Alicorn,384168,"OBS - TPM: Develop, integrate, and test ETI Manager solution into VLab"
+4020,Alicorn,387276,TD 20-05: ULX System Assessment
+3959,Alicorn,388549,TD 19-15: Create ULX Detailed Design
+3949,Alicorn,388990,FRB 2019_15 Design review millitron protection algorithm and review B2U firmware design
+3775,Alicorn,392058,ETI Alarms: Add/Update IETM Alarm Recovery Procedures (Part 2 of 4) [Non-O-Level]
+3391,Alicorn,396710,ETI Add/update IETM alarm recovery procedures for ETI/ETISP alarms (part 4 of 4 [Non-O-Level]
+1097,Alicorn,1013961,ETISP: Develop ETISP Replacement Capability Specification
+1096,Alicorn,1013962,ETISP: Develop ETI-Manager Capability Design Document
+1052,Alicorn,1014162,ETISP: Develop Requirements and System Level Design Constraints for HW Vender
+900,Alicorn,1014595,"TO-9: Update ULX Detailed Design (Design Specification, Verification Plan, Draft Users Guide)"
+899,Alicorn,1014596,TO-9: Develop Channel Processor Prototype for ULX
+898,Alicorn,1014597,TO-9: Develop and Test ULX Manager and Monitor and Control
+897,Alicorn,1014598,TO-9: Develop Build and Development Tools
+893,Alicorn,1014602,TO-9: Build ULX System 1 and 2
+632,Alicorn,1015827,Add/update IETM alarm recovery procedures for ETI alarms (part 3 of 4) [Non-O-Level]
+7415,Cyber,243130,Develop IA Update Process
+7285,Cyber,261492,RMF Step 4 - RMF System Level Continuous Monitoring (SLCM) Strategy artifact updates (GD support to PMW-146)
+7013,Cyber,276005,Perform Vulnerability Management capability investigation - Part 1
+7007,Cyber,276932,Perform trade studies for developing/purchasing Cyber Security Tools to be used in GD Lab and/or at site to support ongoing RMF assessments
+6742,Cyber,295160,Perform Security Controls tracing for technical/functional controls
+6735,Cyber,296198,Perform Device Access Control capability investigation - Part 1
+6734,Cyber,296254,Perform Cyber Incident Response capability investigation - Part 1
+6733,Cyber,296263,Perform Disaster Recovery capability investigation - Part 1
+6531,Cyber,316302,Perform Cybersecurity Situational Awareness capability investigation - Part 2
+6530,Cyber,316303,Perform Cyber Incident Response capability investigation - Part 2
+6529,Cyber,316310,Perform Device Access Control capability investigation - Part 2
+6528,Cyber,316311,Perform Asset Management capability investigation - Part 2
+6527,Cyber,316315,Perform Disaster Recovery capability investigation - Part 2
+6526,Cyber,316321,Perform Vulnerability Management capability investigation - Part 2
+6398,Cyber,320564,"Update MUOS GS security functional architecture description, incorporate completed Part 1 Cyber capability investigations"
+6397,Cyber,320566,"Analyze RMF priority findings, propose future IA remediation features"
+6396,Cyber,320595,Perform Cross Domain Solutions capability investigation
+6326,Cyber,324842,Feature 324842: Remediate IA Findings (identified Q2 2018) for RAF/SF Load Balancers
+6306,Cyber,324932,Feature 324932: IA Remediation for Linux-based Splunk servers  (identified Q2 2018)
+6293,Cyber,324993,Feature 324993: Remediate IA Findings (identified Q2 2018) for Solaris 10 mm11 and mm12 servers
+6273,Cyber,325080,Feature 325080: Remediate IA Findings (identified Q2 2018) for Linux-T400 gw01/gw02 devices
+6246,Cyber,325126,Feature 325126: Remediate IA Findings (identified Q2 2018) for Windows 2003 inf servers
+6233,Cyber,325142,Feature 325142: Remediate IA Findings (identified Q2 2018) for Solaris 9 GIS/MAS servers
+6207,Cyber,325227,Feature 325227: Remediate IA Findings (identified Q2 2018) for Solaris 9 NMS-FM servers
+6178,Cyber,325746,Feature 325746: Remediate IA Findings (identified Q2 2018) for Windows 2012 inf servers
+6109,Cyber,329380,Feature 329380: Remediate IA Findings (identified Q2 2018) for QNX Front End Processor (FEP) devices
+5833,Cyber,335885,Feature 335885: Remediate IA Findings (Identified Q4 2018) for Solaris 9 NMF Ericsson servers
+5798,Cyber,335969,Feature 335969: Remediate IA Findings (Identified Q4 2018) for Solaris 9 DNS Servers
+5768,Cyber,336108,Feature 336108: Remediate IA Findings (identified Q4 2018) for Windows 2003 NMF FCAP/FCAPS servers
+5652,Cyber,342384,Feature 342384 Remediate IA Findings - remove Adobe Reader from servers
+5091,Cyber,354228,Respond to PMW Access Control Policy reccomendations
+4715,Cyber,365530,Cyber Assesment laptops
+4534,Cyber,372921,Cyber RMF Accreditation of Call Bank Radio System
+3872,Cyber,390286,Cyber BlueSheets
+3721,Cyber,392530,Cyber IA Patching - PI 14 (Recurring)
+3605,Cyber,395373,Cyber Sustainment Activities - PI 14 (Recurring)
+3558,Cyber,395688,Cyber: TO3 IA Patching - PI 15 (Recurring)
+3538,Cyber,395835,Cyber MFR Support - PI 14 (Recurring)
+3533,Cyber,395853,Cyber: MFR Deployment Support - PI 15 (Recurring)
+3515,Cyber,395897,Cyber: RMF Continuous Monitoring - PI 15 (Recurring)
+3020,Cyber,1001636,Cyber: CAT1 Mitigation and Burndown
+1621,Cyber,1012503,Cyber: Patch NMS and SCS Radiant Mercury Guards in GD Labs
+1561,Cyber,1012738,Cyber: Patch GFE Radiant Mercury Guard at Zeta
+862,Cyber,1014737,Cyber Sustainment Activities - PI 16 (Recurring)
+6546,Falcons,315734,Add/Update IETM to Transition from D Level to O Level Repair for DIMM Modules (LORA Updates)
+6436,Falcons,319178,Add/Update IETM to Transition from D Level to O Level Repair for Juniper Board Forwarding Boards (LORA Updates)
+5667,Falcons,341999,TD19-10: Deliver Connected AWARE Training for Sicily EAD 18 Deployment
+5455,Falcons,346597,"IETM: Update IETM ""How to Use This IETM"" Content"
+5124,Falcons,353134,Deliver Maintainer Refresher Training in SC
+5118,Falcons,353256,Deliver Maintainer Refresher Training in AU
+5114,Falcons,353345,Deliver Maintainer Refresher Training in WH
+4469,Falcons,377408,Coordinate and Complete Non-Feature IETM Content for EAD 16 (Recurring)
+4438,Falcons,379175,Falcons PTO Tracker
+3689,Falcons,393265,Coordinate and Complete Non-Feature IETM Content for EAD 17 (Recurring)
+3412,Falcons,396508,Deliver EAD 15 Training
+3401,Falcons,396663,Assess Training Needs and Plan Training for Development During PI 14 (Recurring)
+2984,Falcons,1002089,Update Refresher Training Materials to Include Redlines from WH and SC Refresher Training Events
+2951,Falcons,1002477,Incorporate CRM comments into the Training Conduct Support Package (A013)
+1945,Falcons,1010653,Assess Training Needs and Plan Training for Development During PI 15 (Recurring)
+1690,Falcons,1011652,Assess Training Needs and Plan Training for Development During PI 17 (Recurring)
+1625,Falcons,1012485,Task Analysis (JDTA) (CDRL A011)
+1437,Falcons,1013365,Deliver EAD 16 Training (including Nutanix)
+70,Falcons,1018285,Coordinate and Complete Non-Feature IETM Content for EAD 18 (Recurring)
+7591,Labradors,218902,V-Lab like Site Analysis
+7327,Labradors,250449,Lab - WCTB Maintenance Training
+6973,Labradors,279283,Lab - TXO Ericsson - Create and update HIGH priority board test procedures for testing Ericsson parts
+5087,Labradors,354372,Lab - TXO Ericsson - Re-test Ericsson parts from TXO from Initial 2018 bulk buy warranty replacement boards
+5033,Labradors,355229,Tracking Alignment Site # 4 (Relo) - AU
+4713,Labradors,366093,Lab - TXO Ericsson - Create and update MEDIUM priority board test procedures for testing Ericsson parts
+4712,Labradors,366094,Lab - TXO Ericsson - Create and update LOW priority board test procedures for testing Ericsson parts
+4668,Labradors,368169,Lab - TXO Ericsson - Site Support - Build New TSP Kickstart server for D-Level support
+4618,Labradors,369536,Lab - TXO Ericsson - Site Support - Release for site TSP Kickstart server
+4436,Labradors,379221,Labs – TXO Ericsson – Test Ericsson parts from second part of 2030 completion order - Part A
+4280,Labradors,382895,TD19-10: PI 13/14 Support of ADI/EMI/PRISM Integration
+3386,Labradors,396819,"Lab - Maintain Labs for Integration, Testing and Test Events with minimal down time  (PI-14)"
+2053,Labradors,1008620,Lab – TXO Ericsson – Test Ericsson parts from second part of 2030 completion order - Part B
+1366,Labradors,1013534,"Lab - Maintain Labs for Integration, Testing and Test Events with minimal down time  (PI-15)"
+1210,Labradors,1013750,"Lab - SWIT Revitalize - Assessment, inventory, drawings, plan RAN and SWIT"
+1178,Labradors,1013795,"Lab - Make V-Lab more like site - Research, Identify, Document Diffs: RAF:(RAN, CORE, ETI) and SF"
+999,Labradors,1014387,TO 6: PI 15 Support of ADI/EMI/PRISM Integration
+212,Labradors,1017680,"ET SVD MPC Rebases - Dehydrator, FEP, ACU"
+6537,MUOS,316161,IETM Feature <xxx>
+5126,MUOS,352979,<Feature xxx> HW/FRCB Template
+4751,MUOS,363874,MPC for Problem xxx found in EAD 11 Deliveries
+4746,MUOS,363879,MPC for Problem xxx found in EAD 12 Deliveries
+4287,MUOS,382879,<Feature xxx> MFR1 Template
+4242,MUOS,383908,<Feature xxx> MFR3 Template
+3579,MUOS,395538,<Feature xxx> MFR2 Template
+7629,Magic,216607,Secret NMF - HAIPE201 Single Point Failure (Enabler)
+7439,Magic,238135,AMS-GS Phase 2: FCAPs Good Citizenship Part 1
+7303,Magic,257560,TD 19-10 Finalize AWARE Design Documentation
+7301,Magic,258337,AMS-GS Phase 2: Implement/test AMS-GS Alarm Distribution
+7195,Magic,265531,AMS-GS Phase 2: FCAPs Good Citizenship Part 2
+7000,Magic,278546,AMS-GS: Status Page with Firefox
+6954,Magic,280549,Add/update IETM alarm recovery procedures for CORE/GIS alarms [O-Level - Needs Updates]
+6906,Magic,290493,AMS-GS UFO Frequency management
+6905,Magic,290605,AMS-GS Phase 2: Integrate NMS software to the AMS-GS servers - Part 3
+6893,Magic,290618,Investigate NMF-AMS-GS RAF Component Connectivity
+6892,Magic,290622,Implement NMF-AMS-GS RAF Component Connectivity
+6880,Magic,290711,TD 19-10: Deploy AWARE-NMF Connectivity Changes to WH
+6845,Magic,291671,AMS-GS Correlate Geolocation outage history
+6741,Magic,295271,Investigate AMS-GS Backup/Restore of 90+ day data
+6736,Magic,295963,AMS-GS: Investigate UI/DB Authentication Re-Design
+6662,Magic,309972,Unclass GDS:  HW/FRCB Deployable Feature
+6643,Magic,310299,Unclass GDS: Load Balancer Development
+6633,Magic,310443,Unclass GDS - TACLANE
+6625,Magic,310532,Unclass GDS Server
+6616,Magic,310578,Unclass GDS: Firewall/Switches/Routers
+6605,Magic,310609,Unclass GDS: NMS
+6594,Magic,310626,Unclass GDS: GDS Application (Taunton)
+6359,Magic,321296,Investigate Impact of Geo Migrating from RedHat 6.8 to RedHat 7
+6336,Magic,321769,Investigate MUOS 503 constellation changes and any UHF/legacy payload impacts to AMS-GS
+6147,Magic,327080,AMS-GS - Investigate Solutions to Improve GD's lab to Better Match Zeta's lab.
+5921,Magic,330195,Relocation: ET and ETISP activities (M501)
+5919,Magic,330324,Enhance AMS-GS ARSTRAT Training Package
+5918,Magic,330332,"Update AMS-GS documentation to use ""MUOS Geolocation"" instead"
+5917,Magic,330447,Relocation: ET and ETISP activities (M502)
+5885,Magic,332289,Transition AMS-GS NMF and RAF Power-Up/Power Down to O-Level
+5868,Magic,332640,Review and Incorporate Depot Geolocation Trouble Shooting Steps into I-Level procedures
+5714,Magic,338744,Automate OTA Call Bank Log and Data Collection
+5666,Magic,342018,TD19-10: Prepare Docs for Connected AWARE Sicily FRCB (to support deployment post MOT&E)
+5664,Magic,342054,Complete development of Sicily Connected AWARE
+5661,Magic,342163,Site Redlines for TACLANE Obsolescence (Identified during EAD 11 deployment)
+5306,Magic,351542,Update NetMac configuration to support 15 devices simultaneously
+5012,Magic,355947,Feature 355947: Upgrade GEM One to Latest Version
+4691,Magic,367689,Remove Need for Web GUI with Console Servers
+4676,Magic,367790,MPC for Problem 347605 found in EAD 12 Deliveries
+4482,Magic,376446,Update Call Bank Servers to Use Connected AWARE Architecture to support IATT
+4454,Magic,378000,TD 19-10: Finalize AWARE for SC and Update from WH Lessons Learned
+4451,Magic,378031,Investigate Reduction in Non-Standard AWARE Test Scenario Execution Time
+4068,Magic,385856,TD 20-04 MUOS Conversion to Advanced Cryptographic Capability (ACC)
+4048,Magic,386935,"MUOS Geolocation Support, Maintenance  Zeta EAD 16"
+3681,Magic,393432,Automate bi-monthly manual task : Automate AMS-GS Security Log Collection
+3504,Magic,396002,PI 14 Technical Support (Recurring)
+2979,Magic,1002345,OBS - HLR: Upgrade HP HLR/AuC HW & SW
+2963,Magic,1002381,OBS - HLR: HW/FRCB for HLR Deployment
+2953,Magic,1002425,OBS - HLR: Coordinate and Support Deployment of HLR at WH
+2952,Magic,1002428,OBS - HLR: Coordinate and Support Deployment of HLR at NW
+2950,Magic,1002486,OBS - HLR: Complete and Release ILS Documentation for HLR Solution
+2949,Magic,1002491,OBS - HLR: Complete and Release As-Built documentation for HLR Solution
+1457,Magic,1013259,PI 17 Deployment On-site Support (Recurring)
+1405,Magic,1013452,"MUOS Geolocation Support, Maintenance  Zeta EAD 18 (includes Ephemeris to SIPRNet)"
+7437,Octopi,239140,Assess ILS Lifetime Buys
+5316,Octopi,351450,RGR Cabinet Update
+4444,Octopi,378964,Octopi PTO Holder
+4052,Octopi,386846,OBS - HW: Complete and Release ILS Documentation for BAR Solution
+3657,Octopi,395114,PI 15 HW FRB Support (CDRL A008)  (Recurring)
+3636,Octopi,395174,PI 14 HW FRB Support (Recurring)
+3532,Octopi,395855,PI 14 Parts List and Drawing Updates/Modifications Discovered within IA Patching or Outside Standard Features (Recurring)
+3462,Octopi,396248,PI 14 Maintain CRM Database (Recurring)
+3388,Octopi,396770,Warranty Performance Report (CDRL A005)
+3385,Octopi,396835,Government Property Inventory Report (CDRL A006)
+2697,Octopi,1005321,Systemic Configuration (CDRL A015)
+2685,Octopi,1005343,DMSMS Tracker Submittal (CDRL A007))
+2674,Octopi,1005403,AU Preventive Maintenance Planning Activity for 2020
+1957,Octopi,1010421,PI 15 Supply Support Tracking (Recurring)
+1766,Octopi,1011279,Depot: Laptop Efforts for EAD 15
+1765,Octopi,1011295,PI 15 Parts List and Drawing Updates/Modifications Discovered within IA Patching or Outside Standard Features (Recurring)
+1755,Octopi,1011329,PI 16 DMSMS Support (Recurring)
+1739,Octopi,1011394,PI 15 DMSMS Support (Recurring)
+1736,Octopi,1011419,PI 15 Maintain CRM Database (Recurring)
+1730,Octopi,1011441,Annual Level of Repair Assessment (LORA): Review & Update the LORA Created and Delivered in 2019 (CDRL A010)
+1617,Octopi,1012540,Spares Plan (CDRL A004)
+1605,Octopi,1012570,SC Preventive Maintenance Activity for 2020
+1596,Octopi,1012588,WH Preventive Maintenance Activity for 2020
+1536,Octopi,1012847,Reliability & Maintainability (R&M) Block Diagrams & Mathematical Models Report (CDRL A009)
+7352,Okapi,247172,Obsolescence: Backup Archive (TSM)  Proposal
+7145,Okapi,270631,HBSS Integration with Fault Management and SIEM
+6925,Okapi,288210,Feature 288210: Backfill Raid Server in Pre-SWIT
+6718,Okapi,300924,Feature 300924 HBSS Fault Management Ping Probing
+6490,Okapi,318380,Windows 10 Laptop for AJM/MTC 
+6487,Okapi,318430,Windows 10 Laptop for ETT
+6414,Okapi,320207,"User Access Control: IA Updates to AAA, GPO's, and Remove Domain Admins from Standard Users"
+6376,Okapi,321019,Feature 321019 HBSS SVD Updates to clean up APS/ACCM/OAM/Policy Auditor Updates identified post Role-up to NCDOC
+5402,Okapi,350268,"Feature 350268: HBSS modules update/addition system analysis (AVE, HIPS, Policy Auditor, RSD, and EPO)"
+5365,Okapi,351050,"HBSS: Investigate/Generate the effort: ePO and Manage Hosts - Common, Compliant Low/High Sides Architecture"
+5364,Okapi,351068,HBSS: Investigate/Generate findings: STIG compliance ePO - SQL DB
+5363,Okapi,351070,"HBSS: Develop, Implement, and Deploy: STIG compliance ePO - SQL DB"
+5348,Okapi,351086,HBSS: Investigate/Generate the effort: ePO - ArcSight Connector Module
+5347,Okapi,351087,"HBSS: Develop, Implement, and Deploy: ePO - ArcSight Connector Moddule"
+5332,Okapi,351105,HBSS: Investigate/Generate the effort: Managed Hosts - McAfee Application Control (MAC)  Module
+5331,Okapi,351109,"HBSS: Develop, Implement, and Deploy: Identified/Applicable Mananged Hosts - MAC Module"
+5280,Okapi,351942,"HBSS: Generate HIPS (IPS, Firewall)/VSE Analysis and Address Findings - HBSS Low Side - SF"
+5265,Okapi,351959,"HBSS: Generate HIPS (IPS, Firewall)/VSE Analysis and Address Findings - HBSS Low Side - RAF"
+5250,Okapi,351977,"HBSS: Generate HIPS (IPS, Firewall)/VSE Analysis and Address Findings - HBSS Low Side - NMF"
+5235,Okapi,351997,"HBSS: Develop, Implement, and Deploy: New ePO and Managed Hosts - HBSS Low Side"
+5214,Okapi,352189,"HBSS: Develop, Implement, and Deploy New ePO (5.9.x) - HBSS High Side"
+4610,Okapi,369754,OBS - TPM: Design TPM Replacement for File Transfer
+4548,Okapi,371881,MPC for Problem 371879 found in EAD 12 Deliveries
+4464,Okapi,377437,Gen 2 ETT Laptop Obsolescence for Windows 10 and IA compliance
+4396,Okapi,380808,"OBS - Complete Nutanix Release, IA refresh, and IETMs for Nutanix DX360 Solution "
+4263,Okapi,383165,OBS - HW: Create Drawings and FRCB Package for Nutanix Deployment
+4262,Okapi,383168,OBS - HW: FRCB for Site Power Changes for Nutanix Deployment
+4212,Okapi,384036,OBS - HW: Integrate Nutanix HW/SW Design into VLab
+4183,Okapi,384136,OBS - HBSS: Integrate and test production HBSS solution into VLab
+4096,Okapi,385442,OBS - NET: Determine Network Architecture and Design of the MUOS Ground System and Develop an Execution Plan
+3840,Okapi,390944,Automate the PKI deployment
+2858,Okapi,1003863,Update Software_Installation_and_Configuration_Table.pdf to remove/correct references to XP
+2847,Okapi,1004094,OBS:  Develop Common Design for use of Passwords and Credential Management
+2744,Okapi,1004621,OBS - VM: Develop VM Staging and Deployment Automation Solution
+2372,Okapi,1007536,OBS: Create a Development Concept/Architecture for 2 Factor Authentication
+2270,Okapi,1007900,OBS - HBSS: Prepare HBSS for Deployment to Site
+1644,Okapi,1012038,Nutanix Cleanup for EAD 18
+805,Okapi,1015153,Fix disc images on MUOS to no longer require Roxio
+757,Okapi,1015400,Feature 1015400 MFR1 Add Roxio to ILS Tools Laptop
+7593,Roadrunners,218377,MAC Lock - Implement MAC Lock down in V-Lab
+7589,Roadrunners,219158,Auto - Call - V-Lab Call Automation Analysis/Plan
+7580,Roadrunners,219798,Factory Test Automation
+7576,Roadrunners,220349,Enable real RSC in V-LAB
+7574,Roadrunners,220529,Statistic Storage (Call Banks)
+7539,Roadrunners,222606,Implement V-Lab Changes per Site-V-Lab agreement
+7513,Roadrunners,232061,Auto - Automated VLAB password updates [SPIKE]
+7512,Roadrunners,232063,Auto - Automate identified IETM procedures [SPIKE]
+7510,Roadrunners,232080,Auto - Automated verification that SIEM is working [SPIKE]
+7509,Roadrunners,232081,Auto - Update expired certificates on all equipment [SPIKE]
+7508,Roadrunners,232082,Auto - Fault Management - Fault Correlation [SPIKE]
+7469,Roadrunners,235191,Auto - Call - Upgrade E2E Server for Automation (ITLAB)
+7328,Roadrunners,250363,Auto - Daily Delta Checks [SPIKE]
+7326,Roadrunners,250941,Auto - Lab Software Tools Maintenance
+7282,Roadrunners,261876,Auto - Call - V-Lab Automation Implementation [Part 3]
+7172,Roadrunners,267613,Auto - MultiHAL Web Page enhancements
+7170,Roadrunners,267723,Auto - MultiHAL automation enhancements
+7014,Roadrunners,275886,"Auto - Call - Improve MultiHAL scheduler, archive process, and failure/restart processing to be more user-configurable, self-consistent, and improve the documentation"
+6468,Roadrunners,318983,Auto - V-Lab Call Automation Fixes and Updates
+3272,Roadrunners,1000204,Release Regression - EAD 16 Regression Testing (PI14)
+1262,Roadrunners,1013657,Release Regression - EAD 16 Regression Testing (PI15)
+7566,SIC,220871,Splunk Phase 2 Infrastructure - No Hardware Dependency: Unresolved IA Findings
+7493,SIC,232366,Research Better Map Visualization Capability
+7477,SIC,233847,Add alarm summary text for ETISP & ERS whitelist alarms which currently have no summary
+7344,SIC,248249,Speed up PM/CDR/FM data receipt (Research)
+7276,SIC,262625,Prevent Operators from Updating GD Defined Splunk Dashboards
+7263,SIC,262745,IETM alarm recovery procedures for NMS alarms (Part 1) [No Procedure]
+7262,SIC,262755,IETM alarm recovery procedures for NMS alarms (Part 1 of 3) [Non-O-Level]
+7261,SIC,262766,IETM alarm recovery procedures for NMS alarms (Part 2 of 3) [Non-O-Level]
+7258,SIC,262895,Add alarm event IDs and Auto Alarm Clear Logic to NetCool rules file for RNC and RBS
+7257,SIC,263026,"Analyze/Propose ""Best Practices"" Updates from Splunk Training"
+7256,SIC,263027,"Implement ""Best Practices"" Updates from Splunk Training"
+7246,SIC,263144,Deduplicate FM data in Splunk index
+7236,SIC,263247,Create Splunk Dashboard(s) and Indicators to Monitor PM Data Delivery to Gather Baseline Metrics
+7226,SIC,263263,Create Splunk Dashboard(s) and Indicators to Monitor CDR Data Delivery to Gather Baseline Metrics
+7197,SIC,264575,IETM alarm recovery procedures for NMS alarms (Part 3 of 3) [Non-O-Level]
+7168,SIC,267777,Add Auto Alarm Clear Logic and Event IDs to Netcool rules file for TFDU
+7117,SIC,272133,Add/update IETM alarm recovery procedures for CORE/GIS alarms [No Procedure]
+7109,SIC,272399,Implement PPA UI Cleanup due to absent CDRs/PM/FM data
+7098,SIC,272411,Retire Hyperion from MUOS - PM
+7086,SIC,273679,Splunk Infra Fault Management
+7070,SIC,273932,Splunk Infra: Domain Account Support & Password Enforcement
+7059,SIC,274035,Splunk Infra: Secure SSH
+7048,SIC,274067,Splunk Infra: SIEM Standard Collectors
+7037,SIC,274096,Better Splunk user account 2-factor authentication solution
+6987,SIC,279163,PM Primary & Secondary Server Failover Due to Heap Space Error
+6959,SIC,279953,Define Routine PPA Database Admin Tasks
+6942,SIC,283333,Define needs for generating unique event IDs for whitelisted alarms
+6916,SIC,290418,ETISP implement eRxIM enhancement to prevent narrowband interference mitigation
+6817,SIC,293238,Implement generation of unique event IDs for whitelisted alarms
+6780,SIC,294061,Implement alarm severity assignments based on service impact
+6761,SIC,294363,(INC000002393226) Netcool update to autoclear UPS alarms per clear signals listed in IETM
+6727,SIC,299984,Provide CSCF/HSS Alarms Directly to NetCool
+6663,SIC,307114,Server reboot instructions need to be added to IETM
+6560,SIC,315485,Fix User Service Profile Rekey Issues
+6142,SIC,327823,Allow Deletion of a Group Key Set from a Terminal Profile (Business Feature)
+6127,SIC,328562,Implement OTA-FT service status
+5619,SIC,343253,Misc RAID array enhancements
+5130,SIC,352931,TD19-10: Prepare Docs for SPLUNK HA FRCB in support of EAD 17
+5098,SIC,354174,"TD19-10: SPLUNK HA Update IETMs, Task Analysis, etc"
+5074,SIC,354680,TD19-10: Implement SPLUNK HA for Site
+4867,SIC,360622,Update other File Transferring equipment to use new Tectia Solution
+4813,SIC,363379,Include additional frequency profile data in Splunk index
+4798,SIC,363450,Perform Automatic Aging of Aggregate Plan Data Used by PlanProvApp
+4734,SIC,364221,MPC for Problem 359932 found in EAD 11 Deliveries
+4599,SIC,370923,Provide ADNS HAIPE Routability within IP Teleport Splunk Dashboard
+4502,SIC,375515,Define Splunk Version Update Path Forward
+4428,SIC,379761,FM Whitelist updates for PI 14: Update whitelist and filter logic
+4378,SIC,381053,Update Splunk to Version TBD
+4361,SIC,381524,Reduce Provisioning Bridge Database Contention
+4258,SIC,383337,Investigate Distributed File System Replication (DFSR) on TPM Servers
+4224,SIC,383958,Bulk Planning SAR Input Enhancement
+4206,SIC,384084,OBS - HW: Design and Implement changes to FM System (Netcool) for Nutanix HW and Application VMs
+4135,SIC,384943,Expand Instrumentation Status in SA Dashboards
+4118,SIC,385208,Implement Routine PPA Database Admin Tasks
+4078,SIC,385632,FM Whitelist updates for PI 15: Update whitelist and filter logic
+3705,SIC,392743,High Dev Risk -  ATO Generic Unix STIG SVD Findings - (Solaris)
+3390,SIC,396712,Add/update IETM alarm recovery procedures for CORE/GIS alarms [Non-O-Level]
+3389,SIC,396714,IETM alarm recovery procedures for NMS alarms [O-Level - Needs Updates]
+3197,SIC,1000471,Implement Profile Portability
+3081,SIC,1001248,OTAP issues due to intermittent locks on caller records
+3072,SIC,1001263,Address KMS Issues (pre-KMS Obsolescence)
+2515,SIC,1006843,Define MUOS Guard Updates/Process for File Based Data
+2453,SIC,1007167,Preliminary Design of NMS Guard Updates for File Based Data
+2405,SIC,1007394,Splunk Domain Update
+2100,SIC,1008506,Troubleshooting & Recovery Procedures for Splunk HA Nutanix
+1513,SIC,1013016,Implement Bulk Edit of User Service Profiles
+1497,SIC,1013063,Periodically notify MFTs to perform OTA-FT
+1461,SIC,1013234,OBS - PPA Prototyping
+1365,SIC,1013541,KMS State Machine related issues
+1045,SIC,1014252,Notify MFTs to perform OTA-FT following bootstrap OTA-FT (trouble ticket  INC000004670352)
+555,SIC,1016383,FM Whitelist updates for PI 16: Update whitelist and filter logic
+16,SIC,1018690,Provide O-Level Support of CSCF/HSS Alarms
+7647,System Engineering,213598,Fix Issues with Multiple Group SARs (MOT&E Finding E-03)
+7643,System Engineering,216376,Intersite Link Traffic History
+7642,System Engineering,216380,Context Specific Help (Bridge Gap from SA to IETM)
+7641,System Engineering,216388,Add Ruthless Preemption to the WCDMA Congestion Screens
+7640,System Engineering,216437,Compare Congestion Indicators and AARM Thresholds Over Time
+7639,System Engineering,216473,Change Key Mgmt A4/A7 Provisioning to be Manual Instead of Automatic
+7635,System Engineering,216556,AddMe GSL Improvements
+7634,System Engineering,216566,Improve RCG IA Posture for Non GD Controlled SW
+7633,System Engineering,216584,MUOS Does not detect CT-CT outages or failures in the DISA network connecting MUOS Ground Sites
+7630,System Engineering,216602,Static IP:  Remove Original IP Addresses
+7624,System Engineering,216651,Provide automated testing of the Group provisioning so that I can identify and isolate infrequent errors to improve reliability.
+7597,System Engineering,217606,Upgrade to Better Map Visualization Capability
+7586,System Engineering,219386,"DoD PKI Certificate Update Procedures are Error Prone, Inefficient, and Labor Intensive"
+7572,System Engineering,220531,Radio failure metrics (Call Banks)
+7567,System Engineering,220668,(Enabler) FACH with AM & UM traffic: performance & robustness testing
+7561,System Engineering,221218,Analyze use of ETISP configuration utility during site alignment (Enabler)
+7557,System Engineering,221695,Enhance SA for GDS Registration Failures (Enabler)
+7530,System Engineering,226024,Investigate rebuilding U2B BLER test system (Enabler)
+7526,System Engineering,227601,Obtain Government approval to operate MUOS Transec Controller (MTC) and classified Anti-Jam modem in GD's Scottsdale lab (moved from LM SIL)
+7507,System Engineering,232209,Transition the ipworks server dns and dhcp functions to a supportable device to reduce foot print and increase efficiency
+7495,System Engineering,232353,NMS: Update INIT Message response to prevent RNC Out of Sync conditions after Install - Long Term Fix
+7494,System Engineering,232354,Provide repository for site support personnel identifying service interruptions or outages per CI
+7492,System Engineering,232525,Improve group data/multicast suitability: application performance testing of WF buffering improvements
+7490,System Engineering,233083,Create Plan for Developing the Next Generation Analysis Engine
+7482,System Engineering,233338,"Enhance the ""alarm tracker"" tool to automate daily snapshots against current whitelist"
+7480,System Engineering,233717,Enable FACH switching for IP UM/streaming services
+7479,System Engineering,233718,Enable FACH switching with PtX established while NOT congested
+7443,System Engineering,236358,Standard Operating Procedure and Manual for SIPRNET Access
+7414,System Engineering,243140,PKI ECDSA-256 operational certificates being used in the OTAP servers
+7396,System Engineering,244678,Add Generation of PTP BLER CDR by RNC
+7395,System Engineering,244682,Add Generation of Group BLER CDR by RNC
+7365,System Engineering,246067,Incident Management Tools Trade Study
+7364,System Engineering,246072,Understand current incident management tools and workflow
+7362,System Engineering,246079,Implementation of incident management tool for MUOS
+7333,System Engineering,249323,Frequency accuracy of the transmitted B2U Ka Band signal
+7332,System Engineering,249350,UE Ka Doppler Model
+7286,System Engineering,259557,Improve group data/multicast suitability: WF Buffering Improvements Implementation
+7266,System Engineering,262648,Update IETM to describe effects of marking the feeder links inactive (ticket INC000002310319)
+7265,System Engineering,262662,Investigate potential methods to mitigate adverse effects of marking the feeder links inactive (ticket INC000002310319)
+7213,System Engineering,264343,"Assess the need & viability of software level monitoring, alarms, and recovery procedures"
+7198,System Engineering,264572,Assess possible means to make OTA-FT service tolerant of WH RAF power outages
+7187,System Engineering,266772,DMZ SIPRNET Router Changes from DISA
+7175,System Engineering,267271,Investigate Failure of PDRs to Reestablish After Reset
+7157,System Engineering,268707,Investigate how to detect when UE is gone and release resources
+7129,System Engineering,271352,Determine best gain reduction to reduce Hadamard transform clipping
+7128,System Engineering,272101,Prevent unauthorized users from running real time Splunk searches
+7087,System Engineering,272509,Design PPA UI Cleanup due to absent CDRs/PM/FM data
+7025,System Engineering,275845,BKM enhancements to reduce human error
+7011,System Engineering,276113,Create Interim IETM Update for Bulk Key Management (BKM) Key Deletion Guidance
+7001,System Engineering,278392,Research all elements to identify hardware failure alarms to be added to whitelist
+6976,System Engineering,279245,Reselect Group Owner on Module Failure
+6975,System Engineering,279250,Investigate Mitigation of User Service Impact for SSGN Failure
+6974,System Engineering,279257,Investigate Mitigation of User Service Impact for GGSN Failure
+6972,System Engineering,279290,Increase Robustness of RRC Connection Request
+6946,System Engineering,282088,IETM clean-up post-OTRR
+6945,System Engineering,282756,Allow beam-combining to be disabled in the analysis engine predictors
+6943,System Engineering,283251,Issue with PPK Rollover when Additional Radios Are Added to Group
+6935,System Engineering,283611,Develop improved Likelihood of Success output
+6934,System Engineering,283613,Develop operational trending to update the Analysis Engine system configuration parameters
+6919,System Engineering,288731,Non-redundant equipment section of IETM is out of date
+6867,System Engineering,290983,Automate daily log collection and distribution
+6821,System Engineering,292429,"Feature 292429 Define post-OTRR needs for AMS-GS, AWARE, HBSS & SPLUNK FCAPS integration"
+6797,System Engineering,293728,Auto - Call – Provide updates for CCR DCR monthly metrics - WCDMA Call Bank Operation and service outage detection to TOFF
+6793,System Engineering,293815,Auto - Call - Add HDR and MRAB calls to OTA Call Banks
+6782,System Engineering,293862,Define correlation rules & synthesized (virtual) alarms for redundant equipment
+6781,System Engineering,293863,Define alarm severity assignments based on service impact
+6644,System Engineering,310297,TD 18-13: Unclass GDS: System Architecture Brief
+6562,System Engineering,313740,Unclass GDS: System Architecture Development
+6430,System Engineering,319663,Provisioning of EMCON users in analysis engine (Enabler)
+6394,System Engineering,320679,Design OTA-FT service status
+6334,System Engineering,321780,Investigate other System Impacts to support having any of the 5 MUOS Satellites (including spare) being assigned as one of the 4 active Satellites
+6327,System Engineering,324501,Complete call flows work
+6143,System Engineering,327793,Allow Deletion of a Group Key Set from a Terminal Profile (Enabler)
+5912,System Engineering,330453,Relocation Ground Activities - Proposal support
+5702,System Engineering,339182,Replace and Upgrade printers in the NMF
+5380,System Engineering,351017,"HBSS: Develop, Implement, Test, and Deploy: ePO - Policy Auditor File Integrity (FIM) Module, Win2012R2 STIGs Update, HIPS Option Policy Findings"
+5127,System Engineering,352946,OBS: Windows Server SHB Testing & Implementation Planning
+5078,System Engineering,354646,OBS: PRC-155 Replacement Trade Study
+5061,System Engineering,354847,OBS - AJM: Create Detail Execution Plan for AJM upgrade
+5058,System Engineering,354855,OBS - MTC: Create Detail Execution Plan for MTC upgrade
+5055,System Engineering,354864,Evaluate improvements to uplink flux management to better protect the Satellite LNA
+4981,System Engineering,356968,OBS - AWARE & Call Banks: Transition Plan to Clustered Architecture VM environment
+4829,System Engineering,363293,MGB enhancements
+4774,System Engineering,363573,"Develop strategy for improving WCDMA, NMS, and GEO troubleshooting methodology/procedures"
+4772,System Engineering,363784,Provide OTAP Server status information in Splunk index
+4717,System Engineering,365245,SAR/Terminal Profile Screen Enhancements and Deletion of Notification Msgs (Enabler)
+4716,System Engineering,365261,Delete PPA User Accounts (Enabler)
+4624,System Engineering,368860,Canadian Foreign Military Sales (FMS) Planning Phase 1
+4615,System Engineering,369618,OBS: Fiber Optic MUX Trade Study
+4546,System Engineering,372270,OBS: Two Factor Authentication (2FA) Prototype Planning
+4532,System Engineering,373090,Determine execution plan for TOFF metrics collection and reporting
+4307,System Engineering,382134,Complete establishment of MUOS Core System Documentation baseline
+4114,System Engineering,385422,"OBS - BAR: Design Backup, Archive, and Recovery System Solution"
+4108,System Engineering,385428,"OBS - BAR: Prototype and Refactor Backup, Archive, and Recovery (BAR) System Solution in lab"
+4107,System Engineering,385429,"OBS - BAR: Develop, Integrate, and Test Backup, Archive, and Recovery (BAR) System Solution into VLab"
+4106,System Engineering,385430,"OBS - BAR: Analyze, Design, and Implement  Changes to FM System (Netcool) for  BAR System Solution"
+4105,System Engineering,385431,"OBS - BAR: Analyze, Design, and Implement  Changes to Network Management  for  BAR System Solution"
+4104,System Engineering,385432,"OBS - BAR: Develop Content for FRCB package for Backup, Archive, and Recovery (BAR) System Deployment"
+4103,System Engineering,385433,"OBS - BRA: Create Complete set of Operation, Recovery, and Maintenance Procedures for the BRA solution"
+4102,System Engineering,385434,OBS - BAR: Develop a Concept of Operation Document for the BAR solution
+4101,System Engineering,385435,OBS - BRA: Create Training Package for the BRA solution
+4100,System Engineering,385436,OBS - BAR: Complete and Release ILS Documentation for BAR Solution
+4099,System Engineering,385437,OBS - BAR: Complete and Release As-Built documentation for BAR Solution
+4033,System Engineering,387109,"Planning of the Service Management deliverables, procure HW and SW, install in labs and update artifacts"
+4023,System Engineering,387244,OBS - HBSS: Integrate and Test FOUO HBSS solution into VLab 
+4008,System Engineering,387446,Implement updates towards establishment of MUOS Essential System Documentation baseline
+4007,System Engineering,387448,Implement updates towards establishment of MUOS Esential System Documentation Baseline
+4006,System Engineering,387452,Implement updates towards establishment of MUOS Core System Documentation baseline
+3997,System Engineering,388004,TD 19-18 Unclass GDS Analysis
+3995,System Engineering,388053,OBS - PPA: Develop System Design for PPA Replacement
+3923,System Engineering,389549,OBS - PPA: Create a Development Concept/Architecture for PPA Replacement
+3902,System Engineering,389930,Installation and Validation of Out-of-the-box Service Management Capabilities
+3898,System Engineering,389941,Installation and Validation of GFI-CMDB and generation of the final report
+3893,System Engineering,389965,Updates to CMDB to reflect MUOS ground system
+2990,System Engineering,1002036,TD 19-10 Service Management Additional Tasks - respond to questions from ATT
+2646,System Engineering,1005740,OBS - DSN GW: Develop Capability Spec
+2611,System Engineering,1006191,OBS - DSN GW: Develop Detailed System Design Artifacts
+1556,System Engineering,1012748,Canada FMS Capability Spec Initial Draft
+1499,System Engineering,1013032,Design Bulk Edit of User Service Profiles
+1477,System Engineering,1013196,MUOS Service Management P2P service mapping based on MUOS ground system in SWIT and VLABs
+1462,System Engineering,1013233,Design for User Service Profile Rekey Issues
+1455,System Engineering,1013280,Plan forTO-6 Trade Studies
+1451,System Engineering,1013284,Conduct and deliver TO-6 Trade Studies
+1444,System Engineering,1013292,SME Support for Service Management Trade Studies
+1385,System Engineering,1013496,Investigate PMW-146 Questions Related to Top Secret WCDMA Services
+1012,System Engineering,1014362,TO-8 Unclass GDS Capability Spec
+851,System Engineering,1014819,TO-8 Unclass GDS Capability Design
+826,System Engineering,1015004,OBS - MS SQL: Create Capability Specification for SQL Server Replacement
+825,System Engineering,1015005,OBS - Active MQ: Create Design for Active MQ Replacement
+742,System Engineering,1015439,TO-6  Service Management - respond to questions from ATT
+726,System Engineering,1015458,TO-6  Service Management - respond to questions from ATT
+7622,TOFF,216660,Text/Email notifications for MHAL (Call Banks)
+7619,TOFF,216697,Automate FTP of Site Log to G drive - Jenny/Shawn/Tony
+7575,TOFF,220522,Improved Coverage Metrics (Call Banks)
+7573,TOFF,220530,Reduction of Scheduled downtime (Call Banks)
+7491,TOFF,232778,Call Bank Metrics Improvements
+6794,TOFF,293814,Auto - Call – Provide low and high resolution PHY layer data logging in OTA Call Bank analysis and reporting (web)
+6586,TOFF,311386,SCS - simplify troubleshooting of bad ranging data
+6466,TOFF,319074,Feature 319074: Workstation Expansion Phase 3
+6112,TOFF,328729,Investigate creating SCS troubleshooting data file in format for Splunk import
+5920,TOFF,330208,Relocation: SCS/OAS impacts and support
+5616,TOFF,343492,Update MAS SVD to support remote installation of NMS software
+5133,TOFF,352732,Automate TOFF Metric Collection & Reporting via Splunk
+5054,TOFF,354871,OBS - NAVSOC: OA Workstation upgrade
+4946,TOFF,359983,SCS Work Placeholder
+4730,TOFF,364632,"Rebase MPC r.1.3.21 to address SCS OA file server issues, update SVD, including all changes from R 1.4 deployment"
+4720,TOFF,365208,  Implement MPC for Problem 338982: Update Windows 10 configuration for Splunk interface
+4640,TOFF,368597,Investigate and provide recommendations to keep partitions from filling up on HSS and CSCF
+4470,TOFF,377405,TOFF RT Logic PWI placeholder
+4413,TOFF,380598,TFDU GTF module status data should be checked prior to assuming/initiating repair or replace action - IETM update
+4389,TOFF,380916,"Update MM12WH account maintenance procedure to clean-up/empty ""/var/opt/mediation/online/counters"" directory"
+3851,TOFF,390750,Fix baseline to correct IP address of NW secondary domain server
+3684,TOFF,393391,Automate weekly manual task: CN CSA - CSCF/HSS Disk Space Maintenance
+3676,TOFF,393793,MAS: Investigate MAS Registrar Out-of-Sync causes
+3527,TOFF,395871,"Identify, Report, Prioritize, and Support to Incidents & Trouble Tickets (Recurring)"
+3505,TOFF,396001,Deployment and on-site support of OSS-RC for PI16
+3455,TOFF,396272,Capture & Communicate TOFF Metrics (Recurring)
+3445,TOFF,396308,PI 14 PWI Triage/Assessment Support (Recurring)
+3416,TOFF,396492,Address ProvBridge to HLR timeout during terminal provisioning
+3045,TOFF,1001544,<Feature 1001544> Eliminate Firewall Disk Space Management routine maintenance procedure
+2370,TOFF,1007569,TD 20-06: MUOS Space Support Enhanced Alternate Telemetry
+1905,TOFF,1011001,Identify & Communicate Top Issues (Recurring)
+1900,TOFF,1011070,PI 15 PWI Triage/Assessment Support (Recurring)
+1845,TOFF,1011150,"Identify, Report, Prioritize, and Support to Incidents & Trouble Tickets (Recurring) - PI 15"
+1074,TOFF,1014023,Implement the WCDMA Reliability Metric (CSSR) defined in PI-14 and track these Availability related metrics implemented in PI-14
+955,TOFF,1014491,"Implement the WCDMA Reliability Metrics (Group Call CSSR) defined in PI-14, Define Retainability metrics and identify additional metrics to define for WCDMA services"
+95,TOFF,1018204,TD 20-06: MUOS Space Support Enhanced Alternate Telemetry (part 2 of 2)
+7517,Tools,232017,RBS: Implement Continuous Integration Build for RBS
+7516,Tools,232019,Implement Continuous Integration Build for OSSRC
+6810,Tools,293338,SWIT Dev Env (SDE) Create Developer WS VMs
+6809,Tools,293371,RAN Dev Env (RDE) Network Upgrade of MUOS Tools - OSSRC migration
+6732,Tools,297335,RAN Dev Env (RDE) Transition to Production Part 2
+6676,Tools,303218,Improve Hard Drive Generation Method
+5676,Tools,340486,ODE Network Post-Upgrade Optimization
+5386,Tools,350499,RDE Obsolescence Refresh for Solaris 10 and Solaris 11
+4724,Tools,365133,RAN Environment Virtualization for HW Failures- Contingency
+4489,Tools,375936,Investigate DevOps Capabilities for Tools Team
+3858,Tools,390441,Enhance and Optimize MUOS Build and Release Process Part 2
+3419,Tools,396415,Tools Team Support / LOE for SDE/ODE Environment in PI 14
+3418,Tools,396437,Tools Team Support / LOE for RAN/RDE Environment in PI 14
+3240,Tools,1000254,Trade Study and Prototype New Source Code repository and build tools
+3119,Tools,1000847,Update MUOSRel App68
+3098,Tools,1001062,RAN Dev Env (RDE) Post Transition Cleanup
+2946,Tools,1002583,Tools Team Support / LOE for SDE/ODE Environment in PI 15
+1519,Tools,1012996,Tools Team Support / LOE for RAN/RDE Environment in PI 15
+7324,UX,251276,Improve effectiveness of Splunk dashboard navigation
+7628,WWTS,216621,UE Cannot Initiate PtP services or Perform Re-Authentication when a Site has Lost Network Communication with a Switching Facility.
+7623,WWTS,216659,FACH Mobility Issue - R3.1 57-006 Regression Failure
+7620,WWTS,216676,Automate Factory Logging - Complete MUOS Application Server Log Collection scripts
+7610,WWTS,217039,Waveform Changes to improve PtN Mobility
+7581,WWTS,219764,Maintain Established GNLs
+7571,WWTS,220613,Automate Factory Logging - Password Management
+7570,WWTS,220618,Automate Factory Logging - Analysis Reports
+7569,WWTS,220621,Automate Factory Logging - Complete Extreme Switch Log Collection scripts
+7568,WWTS,220625,Automate Factory Logging - Scheduler
+7560,WWTS,221231,Automate ETISP Log Collection
+7559,WWTS,221244,Automate Factory Logging - Complete IETM updates for Automated Factory Logging
+7558,WWTS,221251,Stretch: Automate Factory Logging - Complete TPM SVD updates to install expect (Continue from PI2)
+7534,WWTS,225449,Reliability in 64k PtP Flow data transmissions.
+7496,WWTS,232350,Update RNC SVD To Manually Sync NMS/PPA After Scratch Install
+7394,WWTS,244696,Integrate Alarm/Event Send Interface into Group Load Modules
+7363,WWTS,246077,Understand industry best practices and how to adopt better practices
+7174,WWTS,267325,Investigate Incorrect Generation of P2P Collection Interval Timeout CDRs
+7156,WWTS,270346,RNC: GSLN Preemption Warning Not Sent to Group Following Normal Preemption
+6961,WWTS,279303,"Investigate B2U Power control, Initial dpch/cpich ratio should not exceed max b2u power"
+6960,WWTS,279306,Investigate and Solve NBAP Radio Link Setup msg short in some cases
+6926,WWTS,288136,Investigate Failure of Responses from Central GNH to NMS Provisioning Commands
+6879,WWTS,290929,Implement changes to P2P CIT CDR generation
+6855,WWTS,291008,Implement Extracting Alarm Condition via Log Parsing
+6854,WWTS,291060,Implement changes to Central GNH to NMS responses
+6808,WWTS,293392,INC000002452979: WH - Provisioned P2P and P2N MDR Exceeded
+6704,WWTS,302184,RANI administrator account expires in 35 days
+6646,WWTS,310018,Unclass GDS: Waveform Architecture Investigation
+6645,WWTS,310295,Unclass GDS: Waveform Development
+6423,WWTS,319806,IETM Update to modify Group Min Power for EMCON Groups with a SAR edit
+5904,WWTS,331371,Create RANI O-Level IETM to monitor and recover network connection
+5891,WWTS,331885,Investigate RANI network connection between the RANI CIF at WH and the remote RIFs
+5853,WWTS,332951,Add/update IETM alarm recovery procedures for RBS alarms (5 of 6)
+4956,WWTS,358884,IETM recovery procedures for RNC alarms [O-Level - Needs Updates]
+4834,WWTS,363031,Feature 363031: Techeval - Investigate Queueing Responses Radio Congestion Test
+4833,WWTS,363050,Feature 363050: Techeval - AARM Response
+4832,WWTS,363053,Feature 363053: Techeval - AARM Trigger Levels
+4709,WWTS,366163,OTA Radios experience high levels of LOCAL ABNORMAL RELEASE errors per trouble tickets
+4347,WWTS,381603,Investigate Central GNH Module Registration Failure
+4346,WWTS,381606,Investigate Group Provisioning .DAT Failure
+4345,WWTS,381608,Implement Module Group Provisioning Changes (Traces only)
+4343,WWTS,381627,Implement Central GNH Module Registration Failure Changes
+4328,WWTS,381659,Implement Group Provisioning .DAT Failure Changes
+3994,WWTS,388076,WF PWI Burn down
+3683,WWTS,393397,Automate weekly manual task : Check disk space on RCG Server
+3400,WWTS,396669,Add/update IETM alarm recovery procedures for RCG alarms Part 2
+2999,WWTS,1001912,WF PWI Burn down - Group
+2945,WWTS,1002606,RCG Logging Info Level Update
+2935,WWTS,1002621,RCG Logging Debug-Trace Level Updates
+2833,WWTS,1004171,Implement Group Provisioning Change
+2575,WWTS,1006376,MAMA2 Cleanup (including fix for PWI 1006103)
+2002,WWTS,1009453,Determine Cause of DL Power Spikes causing RNC Congestion
+1483,WWTS,1013136,Burn Down the WF PWI Backlog with Priority
+699,WWTS,1015565,Add/update IETM alarm recovery procedures for RBS alarms (6 of 6)
+696,WWTS,1015603,Add/update IETM alarm recovery procedures for RCG alarms Part 3
+621,WWTS,1015911,Implement Solution for the DL Power Spike
+489,WWTS,1016616,IRM Approved WF PWI backlog Queue
+

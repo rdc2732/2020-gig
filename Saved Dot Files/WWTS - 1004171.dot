@@ -1,0 +1,58 @@
+digraph G {
+    label = "WWTS - 1004171[47]: Implement Group Provisioning Change";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "391361 (5)" ->       
+        "1004240 (1)" ->       
+        "1004359 (1)" ->       
+        "1017864 (2)"
+        [style=invis];
+        label = "EA 15.1 (9)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015118 (1)" ->       
+        "1017268 (3)" ->       
+        "1017270 (1)"
+        [style=invis];
+        label = "EA 15.2 (5)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "391916 (5)" ->       
+        "1008466 (3)" ->       
+        "1017272 (2)" ->       
+        "1017527 (5)"
+        [style=invis];
+        label = "EA 15.3 (15)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "381617 (1)" ->       
+        "392560 (1)" ->       
+        "1004230 (1)" ->       
+        "1005846 (1)" ->       
+        "1017529 (1)" ->       
+        "1017876 (1)" ->       
+        "1017915 (1)" ->       
+        "1017918 (1)" ->       
+        "1017944 (1)"
+        [style=invis];
+        label = "EA 15.4 (9)";
+    }
+    "1017915 (1)" -> "1017918 (1)";
+    "1017529 (1)" -> "381617 (1)";
+    "1017529 (1)" -> "1015856 (1)";
+    "1017527 (5)" -> "1007262 (1)";
+    "391361 (5)" -> "1017268 (3)";
+    "391361 (5)" -> "1007260 (2)";
+}

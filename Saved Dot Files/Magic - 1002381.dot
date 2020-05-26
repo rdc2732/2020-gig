@@ -1,0 +1,46 @@
+digraph G {
+    label = "Magic - 1002381[40]: OBS - HLR: HW/FRCB for HLR Deployment";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1002418 (2)" ->       
+        "1011304 (2)"
+        [style=invis];
+        label = "EA 15.1 (4)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1002410 (5)"
+        ;
+        label = "EA 15.2 (5)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1002411 (5)"
+        ;
+        label = "EA 15.3 (5)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1002419 (3)"
+        ;
+        label = "EA 15.4 (3)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1011314 (2)"
+        ;
+        label = "EA 15.5 (2)";
+    }
+    "1011304 (2)" -> "1011314 (2)";
+}

@@ -1,0 +1,70 @@
+FeatureId,Team,Summary
+1007569,TOFF,TD 20-06: MUOS Space Support Enhanced Alternate Telemetry
+1006843,SIC,Define MUOS Guard Updates/Process for File Based Data
+1005740,System Engineering,OBS - DSN GW: Develop Capability Spec
+1005343,Octopi,DMSMS Tracker Submittal (CDRL A007))
+1002089,Falcons,Update Refresher Training Materials to Include Redlines from WH and SC Refresher Training Events
+1002036,System Engineering,TD 19-10 Service Management Additional Tasks - respond to questions from ATT
+1001636,Cyber,Cyber: CAT1 Mitigation and Burndown
+1001248,SIC,OTAP issues due to intermittent locks on caller records
+1000847,Tools,Update MUOSRel App68
+1000204,Roadrunners,Release Regression - EAD 16 Regression Testing (PI14)
+396835,Octopi,Government Property Inventory Report (CDRL A006)
+396819,Labradors,"Lab - Maintain Labs for Integration, Testing and Test Events with minimal down time  (PI-14)"
+396770,Octopi,Warranty Performance Report (CDRL A005)
+396663,Falcons,Assess Training Needs and Plan Training for Development During PI 14 (Recurring)
+396492,TOFF,Address ProvBridge to HLR timeout during terminal provisioning
+396437,Tools,Tools Team Support / LOE for RAN/RDE Environment in PI 14
+396415,Tools,Tools Team Support / LOE for SDE/ODE Environment in PI 14
+396308,TOFF,PI 14 PWI Triage/Assessment Support (Recurring)
+396272,TOFF,Capture & Communicate TOFF Metrics (Recurring)
+396248,Octopi,PI 14 Maintain CRM Database (Recurring)
+396002,Magic,PI 14 Technical Support (Recurring)
+395871,TOFF,"Identify, Report, Prioritize, and Support to Incidents & Trouble Tickets (Recurring)"
+395855,Octopi,PI 14 Parts List and Drawing Updates/Modifications Discovered within IA Patching or Outside Standard Features (Recurring)
+395835,Cyber,Cyber MFR Support - PI 14 (Recurring)
+395373,Cyber,Cyber Sustainment Activities - PI 14 (Recurring)
+395174,Octopi,PI 14 HW FRB Support (Recurring)
+393793,TOFF,MAS: Investigate MAS Registrar Out-of-Sync causes
+392743,SIC,High Dev Risk -  ATO Generic Unix STIG SVD Findings - (Solaris)
+392530,Cyber,Cyber IA Patching - PI 14 (Recurring)
+390286,Cyber,Cyber BlueSheets
+389549,System Engineering,OBS - PPA: Create a Development Concept/Architecture for PPA Replacement
+388549,Alicorn,TD 19-15: Create ULX Detailed Design
+388076,WWTS,WF PWI Burn down
+388053,System Engineering,OBS - PPA: Develop System Design for PPA Replacement
+388004,System Engineering,TD 19-18 Unclass GDS Analysis
+387448,System Engineering,Implement updates towards establishment of MUOS Core System Documentation Baseline
+387276,Alicorn,TD 20-05: ULX System Assessment
+386935,Magic,"MUOS Geolocation Support, Maintenance  Zeta EAD 16"
+385856,Magic,TD 20-04 MUOS Conversion to Advanced Cryptographic Capability (ACC)
+384136,Okapi,OBS - HBSS: Integrate and test production HBSS solution into VLab
+384084,SIC,OBS - HW: Design and Implement changes to FM System (Netcool) for Nutanix HW and Application VMs
+384036,Okapi,OBS - HW: Integrate Nutanix HW/SW Design into VLab
+383168,Okapi,OBS - HW: FRCB for Site Power Changes for Nutanix Deployment
+382895,Labradors,TD19-10: PI 13/14 Support of ADI/EMI/PRISM Integration
+381608,WWTS,Implement Module Group Provisioning Changes (Traces only)
+379761,SIC,FM Whitelist updates for PI 14: Update whitelist and filter logic
+379221,Labradors,Labs – TXO Ericsson – Test Ericsson parts from second part of 2030 completion order - Part A
+378000,Magic,TD 19-10: Finalize AWARE for SC and Update from WH Lessons Learned
+377408,Falcons,Coordinate and Complete Non-Feature IETM Content for EAD 16 (Recurring)
+373090,System Engineering,Determine execution plan for TOFF metrics collection and reporting
+368860,System Engineering,Canadian Foreign Military Sales (FMS) Planning Phase 1
+355229,Labradors,Tracking Alignment Site # 4 (Relo) - AU
+355228,Alicorn,RF and Tracking Alignment Site # 3 (Relo) - WH
+354680,SIC,TD19-10: Implement SPLUNK HA for Site
+354646,System Engineering,OBS: PRC-155 Replacement Trade Study
+354372,Labradors,Lab - TXO Ericsson - Re-test Ericsson parts from TXO from Initial 2018 bulk buy warranty replacement boards
+354174,SIC,"TD19-10: SPLUNK HA Update IETMs, Task Analysis, etc"
+353345,Falcons,Deliver Maintainer Refresher Training in WH
+353256,Falcons,Deliver Maintainer Refresher Training in AU
+353134,Falcons,Deliver Maintainer Refresher Training in SC
+352931,SIC,TD19-10: Prepare Docs for SPLUNK HA FRCB in support of EAD 17
+342018,Magic,TD19-10: Prepare Docs for Connected AWARE Sicily FRCB (to support deployment post MOT&E)
+318430,Okapi,Windows 10 Laptop for ETT
+318380,Okapi,Windows 10 Laptop for AJM/MTC 
+297335,Tools,RAN Dev Env (RDE) Transition to Production Part 2
+293338,Tools,SWIT Dev Env (SDE) Create Developer WS VMs
+290711,Magic,TD 19-10: Deploy AWARE-NMF Connectivity Changes to WH
+279283,Labradors,Lab - TXO Ericsson - Create and update HIGH priority board test procedures for testing Ericsson parts
+257560,Magic,TD 19-10 Finalize AWARE Design Documentation

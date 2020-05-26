@@ -1,0 +1,18 @@
+digraph G {
+    label = "MUOS PI 14";
+    rankdir=LR;
+ 
+    {% for ft_record in feature_teams %}
+    subgraph cluster_{{ loop.index }} {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        {% for ft, vectors in ft_record.items() %}
+        {% for vector in vectors %}
+        {{ vector }};
+        {% endfor %}
+        label = {{ ft }};
+    }
+        {% endfor %}
+    {% endfor %}
+}

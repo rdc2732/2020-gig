@@ -1,0 +1,50 @@
+digraph G {
+    label = "Octopi - 1005321[18]: Systemic Configuration (CDRL A015)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1005335 (2)"
+        ;
+        label = "EA 15.1 (2)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1005327 (2)" ->       
+        "1005336 (2)" ->       
+        "1005617 (2)"
+        [style=invis];
+        label = "EA 15.2 (6)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1005330 (5)" ->       
+        "1005333 (3)" ->       
+        "1005338 (2)" ->       
+        "1018060 (3)"
+        [style=invis];
+        label = "EA 15.3 (13)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1005340 (2)"
+        ;
+        label = "EA 15.4 (2)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1005325 (2)" ->       
+        "1005332 (2)"
+        [style=invis];
+        label = "EA 15.5 (4)";
+    }
+}

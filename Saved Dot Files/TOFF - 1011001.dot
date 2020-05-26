@@ -1,0 +1,53 @@
+digraph G {
+    label = "TOFF - 1011001[78]: Identify & Communicate Top Issues (Recurring)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015440 (2)" ->       
+        "1017967 (2)" ->       
+        "1018370 (1)"
+        [style=invis];
+        label = "EA 15.1 (5)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015445 (2)" ->       
+        "1015817 (2)" ->       
+        "1017969 (2)" ->       
+        "1018371 (1)"
+        [style=invis];
+        label = "EA 15.2 (7)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1017320 (2)" ->       
+        "1017971 (2)"
+        [style=invis];
+        label = "EA 15.3 (4)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015737 (2)" ->       
+        "1017563 (2)" ->       
+        "1017977 (2)"
+        [style=invis];
+        label = "EA 15.4 (6)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1017562 (2)" ->       
+        "1017980 (2)"
+        [style=invis];
+        label = "EA 15.5 (4)";
+    }
+}

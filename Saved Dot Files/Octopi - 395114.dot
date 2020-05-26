@@ -1,0 +1,64 @@
+digraph G {
+    label = "Octopi - 395114[5]: PI 15 HW FRB Support (CDRL A008)  (Recurring)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395115 (1)" ->       
+        "395121 (1)" ->       
+        "395127 (5)" ->       
+        "395134 (1)" ->       
+        "1018631 (1)" ->       
+        "1018842 (1)"
+        [style=invis];
+        label = "EA 15.1 (10)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395116 (1)" ->       
+        "395122 (1)" ->       
+        "395128 (5)" ->       
+        "395135 (1)"
+        [style=invis];
+        label = "EA 15.2 (8)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395117 (1)" ->       
+        "395123 (1)" ->       
+        "395129 (5)" ->       
+        "395136 (1)"
+        [style=invis];
+        label = "EA 15.3 (8)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395118 (1)" ->       
+        "395124 (1)" ->       
+        "395130 (3)" ->       
+        "395137 (1)"
+        [style=invis];
+        label = "EA 15.4 (6)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395119 (1)" ->       
+        "395125 (1)" ->       
+        "395131 (3)" ->       
+        "395138 (1)" ->       
+        "395194 (1)" ->       
+        "1011472 (2)" ->       
+        "1012856 (1)"
+        [style=invis];
+        label = "EA 15.5 (10)";
+    }
+}

@@ -1,0 +1,55 @@
+digraph G {
+    label = "Cyber - 372921[11]: Cyber RMF Accreditation of Call Bank Radio System";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "373095 (3)" ->       
+        "1001667 (1)" ->       
+        "1019215 (2)"
+        [style=invis];
+        label = "EA 15.1 (6)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "373096 (3)" ->       
+        "1001668 (1)" ->       
+        "1014651 (2)" ->       
+        "1014652 (2)"
+        [style=invis];
+        label = "EA 15.2 (8)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "373097 (3)" ->       
+        "1001669 (1)" ->       
+        "1001670 (1)" ->       
+        "1014653 (2)"
+        [style=invis];
+        label = "EA 15.3 (7)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "373098 (3)" ->       
+        "1014654 (2)"
+        [style=invis];
+        label = "EA 15.4 (5)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1001671 (1)" ->       
+        "1014581 (3)" ->       
+        "1014658 (2)"
+        [style=invis];
+        label = "EA 15.5 (6)";
+    }
+}

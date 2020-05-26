@@ -1,0 +1,13 @@
+digraph G {
+    label = "WWTS - 1001912[55]: WF PWI Burn down - Group";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015763 (3)" ->       
+        "1018072 (2)"
+        [style=invis];
+        label = "EA 15.1 (5)";
+    }
+}

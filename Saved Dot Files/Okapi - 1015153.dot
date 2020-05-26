@@ -1,0 +1,62 @@
+digraph G {
+    label = "Okapi - 1015153[62]: Fix disc images on MUOS to no longer require Roxio";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015334 (5)" ->       
+        "1017313 (3)" ->       
+        "1017991 (2)" ->       
+        "1018147 (5)" ->       
+        "1018155 (1)" ->       
+        "1018183 (5)" ->       
+        "1018275 (3)" ->       
+        "1019342 (1)"
+        [style=invis];
+        label = "EA 15.1 (25)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015157 (1)" ->       
+        "1018223 (1)" ->       
+        "1018279 (2)"
+        [style=invis];
+        label = "EA 15.2 (4)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015156 (3)" ->       
+        "1018163 (3)" ->       
+        "1018170 (3)" ->       
+        "1018175 (3)" ->       
+        "1018234 (3)" ->       
+        "1018307 (5)"
+        [style=invis];
+        label = "EA 15.3 (20)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015166 (1)" ->       
+        "1015167 (1)" ->       
+        "1015275 (1)" ->       
+        "1018176 (2)" ->       
+        "1018224 (3)" ->       
+        "1018225 (3)"
+        [style=invis];
+        label = "EA 15.4 (11)";
+    }
+    "1018183 (5)" -> "1019342 (1)";
+    "1018147 (5)" -> "1019342 (1)";
+    "1017991 (2)" -> "1015334 (5)";
+    "1017313 (3)" -> "1019342 (1)";
+    "1015166 (1)" -> "1015167 (1)";
+    "1015157 (1)" -> "1015166 (1)";
+    "1015156 (3)" -> "1015166 (1)";
+}

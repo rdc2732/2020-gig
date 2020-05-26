@@ -1,0 +1,17 @@
+digraph G {
+    label = "{{team_name}}";
+    subgraph cluster_0 {
+        rankdir=LR;
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        {%- for path in paths %}		
+        {{ path }};
+        {%- endfor %}
+        
+        
+        label = "{{feature_name}}";
+    }
+}
+
+

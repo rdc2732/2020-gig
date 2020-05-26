@@ -1,0 +1,30 @@
+digraph G {
+    label = "Alicorn - 358656[68]: Address missing and "not appropriate for O-level operator" ET alarm recovery procedures";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1017924 (8)" ->       
+        "1017951 (8)" ->       
+        "1018259 (3)"
+        [style=invis];
+        label = "EA 15.1 (19)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1017427 (5)"
+        ;
+        label = "EA 15.3 (5)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "358663 (5)"
+        ;
+        label = "EA 15.4 (5)";
+    }
+}

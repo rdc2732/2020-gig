@@ -1,0 +1,64 @@
+digraph G {
+    label = "TOFF - 354871[43]: OBS - NAVSOC: OA Workstation upgrade";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "393957 (3)" ->       
+        "1016701 (5)" ->       
+        "1017231 (3)" ->       
+        "1017232 (1)" ->       
+        "1017237 (1)"
+        [style=invis];
+        label = "EA 15.1 (13)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "393950 (3)" ->       
+        "1014382 (2)" ->       
+        "1014385 (3)" ->       
+        "1017233 (5)" ->       
+        "1017267 (3)" ->       
+        "1017276 (1)"
+        [style=invis];
+        label = "EA 15.2 (17)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014386 (3)" ->       
+        "1017234 (3)" ->       
+        "1017239 (3)" ->       
+        "1017269 (3)" ->       
+        "1017279 (1)" ->       
+        "1017284 (1)"
+        [style=invis];
+        label = "EA 15.3 (14)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1017246 (2)" ->       
+        "1017262 (3)" ->       
+        "1017271 (3)" ->       
+        "1017280 (1)" ->       
+        "1017285 (1)"
+        [style=invis];
+        label = "EA 15.4 (10)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "390916 (1)" ->       
+        "1017249 (1)" ->       
+        "1017251 (1)"
+        [style=invis];
+        label = "EA 15.5 (3)";
+    }
+}

@@ -1,0 +1,43 @@
+digraph G {
+    label = "Tools - 297335[48]: RAN Dev Env (RDE) Transition to Production Part 2";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "284314 (3)" ->       
+        "305904 (1)" ->       
+        "1001920 (5)" ->       
+        "1001926 (3)" ->       
+        "1007383 (8)" ->       
+        "1015874 (5)"
+        [style=invis];
+        label = "EA 15.1 (25)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015880 (1)"
+        ;
+        label = "EA 15.2 (1)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "334396 (5)" ->       
+        "1001057 (5)"
+        [style=invis];
+        label = "EA 15.3 (10)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014375 (2)"
+        ;
+        label = "EA 15.4 (2)";
+    }
+    "1001057 (5)" -> "334396 (5)";
+}

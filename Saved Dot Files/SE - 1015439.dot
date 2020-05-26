@@ -1,0 +1,37 @@
+digraph G {
+    label = "SE - 1015439[59]: TO-6  Service Management - respond to questions from ATT";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015443 (1)" ->       
+        "1015447 (1)" ->       
+        "1015448 (1)" ->       
+        "1015452 (1)" ->       
+        "1015454 (1)" ->       
+        "1015457 (1)"
+        [style=invis];
+        label = "EA 15.2 (6)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015444 (1)" ->       
+        "1015449 (1)" ->       
+        "1015451 (1)"
+        [style=invis];
+        label = "EA 15.3 (3)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1015446 (1)" ->       
+        "1015455 (1)" ->       
+        "1015456 (1)"
+        [style=invis];
+        label = "EA 15.4 (3)";
+    }
+}

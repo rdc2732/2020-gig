@@ -1,0 +1,73 @@
+digraph G {
+    label = "WWTS - 1013136[65]: Burn Down the WF PWI Backlog with Priority";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013137 (5)" ->       
+        "1013363 (5)" ->       
+        "1013400 (2)" ->       
+        "1016532 (5)" ->       
+        "1016534 (5)" ->       
+        "1016537 (2)" ->       
+        "1016544 (3)" ->       
+        "1016549 (2)" ->       
+        "1016559 (2)"
+        [style=invis];
+        label = "EA 15.1 (31)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013394 (5)" ->       
+        "1013402 (3)" ->       
+        "1013406 (2)" ->       
+        "1016525 (5)" ->       
+        "1016529 (3)" ->       
+        "1016533 (5)" ->       
+        "1016535 (5)" ->       
+        "1016540 (2)" ->       
+        "1016543 (2)" ->       
+        "1016547 (2)" ->       
+        "1016553 (5)" ->       
+        "1016558 (2)"
+        [style=invis];
+        label = "EA 15.2 (41)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013396 (5)" ->       
+        "1013403 (5)" ->       
+        "1013407 (3)" ->       
+        "1016526 (5)" ->       
+        "1016528 (3)" ->       
+        "1016539 (1)" ->       
+        "1016546 (2)" ->       
+        "1016552 (5)" ->       
+        "1016557 (2)" ->       
+        "1016561 (5)"
+        [style=invis];
+        label = "EA 15.3 (36)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013399 (3)" ->       
+        "1013404 (3)" ->       
+        "1013408 (2)" ->       
+        "1016527 (5)" ->       
+        "1016531 (2)" ->       
+        "1016536 (3)" ->       
+        "1016538 (1)" ->       
+        "1016541 (2)" ->       
+        "1016551 (5)" ->       
+        "1016556 (2)"
+        [style=invis];
+        label = "EA 15.4 (28)";
+    }
+}

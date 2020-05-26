@@ -1,0 +1,74 @@
+digraph G {
+    label = "Cyber - 395897[4]: Cyber: RMF Continuous Monitoring - PI 15 (Recurring)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395901 (2)" ->       
+        "1014594 (3)" ->       
+        "1014890 (2)" ->       
+        "1018178 (3)" ->       
+        "1018192 (3)" ->       
+        "1018193 (3)" ->       
+        "1018203 (3)" ->       
+        "1018364 (1)"
+        [style=invis];
+        label = "EA 15.1 (20)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395902 (2)" ->       
+        "1015753 (3)" ->       
+        "1018179 (2)" ->       
+        "1018194 (3)" ->       
+        "1018205 (3)" ->       
+        "1018346 (2)" ->       
+        "1018347 (5)" ->       
+        "1018365 (1)"
+        [style=invis];
+        label = "EA 15.2 (21)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395903 (2)" ->       
+        "1014891 (2)" ->       
+        "1018001 (3)" ->       
+        "1018181 (2)" ->       
+        "1018196 (3)" ->       
+        "1018206 (3)" ->       
+        "1018366 (1)"
+        [style=invis];
+        label = "EA 15.3 (16)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395904 (2)" ->       
+        "1018182 (2)" ->       
+        "1018198 (3)" ->       
+        "1018208 (3)" ->       
+        "1018367 (1)"
+        [style=invis];
+        label = "EA 15.4 (11)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "395905 (2)" ->       
+        "1014892 (2)" ->       
+        "1018184 (2)" ->       
+        "1018199 (3)" ->       
+        "1018210 (3)" ->       
+        "1018355 (1)" ->       
+        "1018368 (1)"
+        [style=invis];
+        label = "EA 15.5 (14)";
+    }
+}

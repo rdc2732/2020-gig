@@ -1,0 +1,53 @@
+digraph G {
+    label = "Tools - 1012996[49]: Tools Team Support / LOE for RAN/RDE Environment in PI 15";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1012997 (3)" ->       
+        "1014117 (3)" ->       
+        "1017669 (1)"
+        [style=invis];
+        label = "EA 15.1 (7)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1017220 (5)" ->       
+        "1017670 (1)" ->       
+        "1019694 (2)"
+        [style=invis];
+        label = "EA 15.2 (8)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1017221 (5)" ->       
+        "1017671 (1)" ->       
+        "1019695 (2)"
+        [style=invis];
+        label = "EA 15.3 (8)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1001056 (3)" ->       
+        "1017672 (1)" ->       
+        "1019696 (2)"
+        [style=invis];
+        label = "EA 15.4 (6)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1017673 (1)" ->       
+        "1019697 (2)"
+        [style=invis];
+        label = "EA 15.5 (3)";
+    }
+}

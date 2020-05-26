@@ -1,0 +1,21 @@
+digraph G {
+    label = "SE - 1013496[82]: Investigate PMW-146 Questions Related to Top Secret WCDMA Services";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013502 (3)"
+        ;
+        label = "EA 15.3 (3)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013504 (1)" ->       
+        "1013507 (1)"
+        [style=invis];
+        label = "EA 15.4 (2)";
+    }
+}

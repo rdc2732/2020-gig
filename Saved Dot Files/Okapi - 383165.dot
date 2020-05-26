@@ -1,0 +1,42 @@
+digraph G {
+    label = "Okapi - 383165[35]: OBS - HW: Create Drawings and FRCB Package for Nutanix Deployment";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "388471 (1)" ->       
+        "388473 (1)"
+        [style=invis];
+        label = "EA 15.1 (2)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1016892 (3)" ->       
+        "1019919 (1)"
+        [style=invis];
+        label = "EA 15.2 (4)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "388478 (3)" ->       
+        "1019921 (1)"
+        [style=invis];
+        label = "EA 15.3 (4)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "388472 (5)" ->       
+        "389241 (1)" ->       
+        "1019922 (1)"
+        [style=invis];
+        label = "EA 15.4 (7)";
+    }
+    "388473 (1)" -> "388472 (5)";
+}

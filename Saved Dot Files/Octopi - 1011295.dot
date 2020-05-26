@@ -1,0 +1,42 @@
+digraph G {
+    label = "Octopi - 1011295[17]: PI 15 Parts List and Drawing Updates/Modifications Discovered within IA Patching or Outside Standard Features (Recurring)";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1011300 (2)" ->       
+        "1016871 (1)" ->       
+        "1016891 (1)"
+        [style=invis];
+        label = "EA 15.2 (4)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1011301 (1)" ->       
+        "1011306 (2)" ->       
+        "1018728 (3)"
+        [style=invis];
+        label = "EA 15.3 (6)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1016873 (1)" ->       
+        "1018729 (1)"
+        [style=invis];
+        label = "EA 15.4 (2)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1011317 (1)" ->       
+        "1011325 (1)"
+        [style=invis];
+        label = "EA 15.5 (2)";
+    }
+}

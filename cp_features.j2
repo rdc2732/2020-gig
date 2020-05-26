@@ -1,0 +1,19 @@
+digraph G {
+    label = "{{chart_label}}";
+    rankdir = LR;
+    {% for PlannedFor, Features in clusters.items() %}
+    subgraph cluster_{{ loop.index }} {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        {% for Feature in Features %}
+        "{{Feature}}";
+        {% endfor %}
+        label = "{{ PlannedFor }}";
+    }
+    {% endfor %}
+    {% for vector in vectors %}
+    {% set blocker, blocked = vector %}
+    "{{blocker}}" -> "{{blocked}}";
+    {% endfor %}
+}

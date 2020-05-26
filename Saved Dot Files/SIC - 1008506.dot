@@ -1,0 +1,74 @@
+digraph G {
+    label = "SIC - 1008506[38]: Troubleshooting & Recovery Procedures for Splunk HA Nutanix";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014345 (2)" ->       
+        "1015751 (1)" ->       
+        "1017340 (1)" ->       
+        "1017449 (3)" ->       
+        "1017478 (2)" ->       
+        "1019150 (1)"
+        [style=invis];
+        label = "EA 15.1 (10)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014336 (5)" ->       
+        "1014349 (3)" ->       
+        "1017450 (2)" ->       
+        "1017456 (1)" ->       
+        "1017465 (1)" ->       
+        "1017526 (2)" ->       
+        "1019490 (2)"
+        [style=invis];
+        label = "EA 15.2 (16)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1005820 (8)" ->       
+        "1014337 (5)" ->       
+        "1014341 (5)" ->       
+        "1014347 (3)" ->       
+        "1014348 (5)" ->       
+        "1017451 (3)" ->       
+        "1017458 (1)" ->       
+        "1017463 (1)" ->       
+        "1017492 (3)" ->       
+        "1017512 (1)"
+        [style=invis];
+        label = "EA 15.3 (35)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014340 (5)" ->       
+        "1014346 (5)" ->       
+        "1017452 (3)" ->       
+        "1017491 (1)" ->       
+        "1017496 (2)" ->       
+        "1017497 (2)" ->       
+        "1017513 (1)" ->       
+        "1018078 (1)" ->       
+        "1018319 (1)" ->       
+        "1019717 (2)"
+        [style=invis];
+        label = "EA 15.4 (23)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1017484 (1)" ->       
+        "1017494 (1)"
+        [style=invis];
+        label = "EA 15.5 (2)";
+    }
+}

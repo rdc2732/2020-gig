@@ -1,0 +1,51 @@
+digraph G {
+    label = "Tools - 1002583[75]: Tools Team Support / LOE for SDE/ODE Environment in PI 15";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "376204 (5)" ->       
+        "1012998 (1)" ->       
+        "1017405 (3)" ->       
+        "1018063 (3)"
+        [style=invis];
+        label = "EA 15.1 (12)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "389805 (3)" ->       
+        "1015741 (3)" ->       
+        "1018064 (3)" ->       
+        "1019550 (3)"
+        [style=invis];
+        label = "EA 15.2 (12)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "384477 (5)" ->       
+        "1013001 (1)"
+        [style=invis];
+        label = "EA 15.3 (6)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1012999 (1)"
+        ;
+        label = "EA 15.4 (1)";
+    }
+    subgraph cluster_5 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1013000 (1)"
+        ;
+        label = "EA 15.5 (1)";
+    }
+}

@@ -1,0 +1,50 @@
+digraph G {
+    label = "Okapi - 377437[46]: Gen 2 ETT Laptop Obsolescence for Windows 10 and IA compliance";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "377438 (3)" ->       
+        "377452 (2)" ->       
+        "1004256 (3)" ->       
+        "1004659 (3)" ->       
+        "1009630 (2)" ->       
+        "1014729 (5)" ->       
+        "1014829 (3)"
+        [style=invis];
+        label = "EA 15.1 (21)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "377442 (2)" ->       
+        "377449 (1)" ->       
+        "1004649 (3)" ->       
+        "1004660 (3)" ->       
+        "1008967 (2)" ->       
+        "1010769 (1)" ->       
+        "1017833 (2)"
+        [style=invis];
+        label = "EA 15.2 (14)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "377441 (1)" ->       
+        "1002991 (1)" ->       
+        "1004549 (1)" ->       
+        "1004661 (1)" ->       
+        "1004662 (1)" ->       
+        "1004666 (1)"
+        [style=invis];
+        label = "EA 15.3 (6)";
+    }
+    "1004666 (1)" -> "1004661 (1)";
+    "1004666 (1)" -> "377437 (0)";
+    "1004662 (1)" -> "377437 (0)";
+    "1004660 (3)" -> "1004666 (1)";
+    "1004659 (3)" -> "1004666 (1)";
+}

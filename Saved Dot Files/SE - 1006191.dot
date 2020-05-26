@@ -1,0 +1,66 @@
+digraph G {
+    label = "SE - 1006191[61]: OBS - DSN GW: Develop Detailed System Design Artifacts";
+    ranksep = .1
+    subgraph cluster_1 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014514 (5)" ->       
+        "1014515 (2)" ->       
+        "1014527 (2)" ->       
+        "1014552 (1)" ->       
+        "1014556 (2)" ->       
+        "1014676 (2)" ->       
+        "1015805 (5)" ->       
+        "1016459 (2)" ->       
+        "1017929 (1)" ->       
+        "1018089 (1)"
+        [style=invis];
+        label = "EA 15.1 (23)";
+    }
+    subgraph cluster_2 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014516 (2)" ->       
+        "1014517 (5)" ->       
+        "1014528 (2)" ->       
+        "1014534 (8)" ->       
+        "1014553 (1)" ->       
+        "1014557 (2)" ->       
+        "1016219 (2)" ->       
+        "1016460 (2)" ->       
+        "1017653 (1)" ->       
+        "1017948 (1)"
+        [style=invis];
+        label = "EA 15.2 (26)";
+    }
+    subgraph cluster_3 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014518 (5)" ->       
+        "1014524 (2)" ->       
+        "1014529 (2)" ->       
+        "1014554 (1)" ->       
+        "1014558 (2)" ->       
+        "1016461 (1)" ->       
+        "1017652 (1)" ->       
+        "1018061 (1)"
+        [style=invis];
+        label = "EA 15.3 (15)";
+    }
+    subgraph cluster_4 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        "1014521 (5)" ->       
+        "1014525 (2)" ->       
+        "1014530 (2)" ->       
+        "1014555 (1)" ->       
+        "1014559 (2)" ->       
+        "1016462 (2)"
+        [style=invis];
+        label = "EA 15.4 (14)";
+    }
+}
