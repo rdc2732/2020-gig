@@ -1,36 +1,23 @@
-## criticalpath.py - Rick Cottle, for GD-MS MUOS, May 2020.
-## Expects Python3.  Usage: python criticalPath.py
-
-## General library imports
+import jinja2
 import os
 import sys
+from office365.runtime.auth.authentication_context import AuthenticationContext
+from office365.sharepoint.client_context import ClientContext
+from office365.sharepoint.file import File 
 from subprocess import check_call
 import io
-
-## The critical path is determined for each Feature by using the criticalpath module
-## Get from PyPI:  pip install criticalpath
 from criticalpath import Node
-
-## All of the spreadsheet parsing and data maniuplation is done with pandas
-## Get from PyPI:  pip install pandas
 import pandas as pd
 
-## The template engine used to generate the .dot files is jinja2
-## get from PyPI:  pip install Jinja2
-import jinja2
-
-# The next line is optional--useful for debugging pandas
 pd.set_option('display.max_rows', None)
 
-# Set up an environment for a jinja2 template, then load the template itself.
 loader = jinja2.FileSystemLoader(os.getcwd())
 jenv = jinja2.Environment(loader = loader, trim_blocks = True, lstrip_blocks = True)
-template = jenv.get_template('criticalpath.j2')
+template = jenv.get_template('cp5.j2')
 
-## Use Pandas to create data frames that relate all the features, stories and blocked stories.
-##    The source for this data is a 'Feature_Rank_List.xlsm' and 'CriticalPath.csv' spreadsheet.
-##    Feature_Rank_List is a copy of the current PI spreadsheet and CriticalPath comes from an RTC
-##    shared query (download, open (in Excel), and save as .xlsx).
+## 1) Use Pandas to create a flat file that relates all the features, stories and blocked stories.
+##    The source for this data is the 'CustomerReport.xlsx' spreadsheet.
+##    Note: a future enhancement is to have the program read the file directly from SharePoint
 
 features = pd.read_excel('PI_15_Feature_Rank_List.xlsm',sheet_name='Feature_List',usecols='A,B,L,AP')
 features['Id'] = features['Id'].fillna(0).astype(int)
@@ -38,16 +25,16 @@ features = features.loc[(features['Rank'].notnull()) & (features['Rank'] != 'Unr
 features['Rank'] = features['Rank'].astype(int)
 features.rename(columns={'Id' : 'FeatureId'}, inplace=True)
 
-rtc_data = pd.read_excel('CriticalPath.xlsx')
-rtc_data.rename(columns={'Story Points (numeric)' : 'SP', 'Planned For' : 'PlannedFor'}, inplace=True)
-rtc_data['Parent'] = rtc_data['Parent'].str.replace('#','')
-rtc_data['Blocks'] = rtc_data['Blocks'].str.replace('#','')
-rtc_data['SP'] = rtc_data['SP'].fillna(0)
-rtc_data['SP'] = rtc_data['SP'].astype(int)
-rtc_data['Parent'] = rtc_data['Parent'].fillna(0)
-rtc_data['Parent'] = rtc_data['Parent'].astype(int)
+cust = pd.read_csv('Critical Path.csv', sep="\t")
+cust.rename(columns={'Story Points (numeric)' : 'SP', 'Planned For' : 'PlannedFor'}, inplace=True)
+cust['Parent'] = cust['Parent'].str.replace('#','')
+cust['Blocks'] = cust['Blocks'].str.replace('#','')
+cust['SP'] = cust['SP'].fillna(0)
+cust['SP'] = cust['SP'].astype(int)
+cust['Parent'] = cust['Parent'].fillna(0)
+cust['Parent'] = cust['Parent'].astype(int)
 
-stories = rtc_data.loc[(rtc_data.Type == 'Story') & (rtc_data['Parent'] > 0)].copy()
+stories = cust.loc[(cust.Type == 'Story') & (cust['Parent'] > 0)].copy()
 stories.rename(columns={'Parent' : 'FeatureId'}, inplace=True)
 stories = stories[['FeatureId', 'Id', 'PlannedFor', 'SP', 'Blocks']]
 
@@ -64,7 +51,7 @@ vectors = \
 vectors['Blocks'] = vectors['Blocks'].fillna(0)
 vectors['Blocks'] = vectors['Blocks'].astype(int)
 vectors.rename(columns={'Id' : 'BkrId','PlannedFor' : 'BkrPf','SP' : 'BkrSP','Blocks' : 'BkdId'}, inplace=True)
-vectors = vectors.merge(rtc_data, how='left', left_on='BkdId', right_on='Id')
+vectors = vectors.merge(cust, how='left', left_on='BkdId', right_on='Id')
 vectors.rename(columns={'FeatureId_x' : 'FeatureId','PlannedFor' : 'BkdPf','SP' : 'BkdSP'}, inplace=True)
 vectors.drop(columns=['Id','Blocks','Parent','Type','Summary','Status'], inplace=True)
 
@@ -156,20 +143,17 @@ for Team in Teams:
             if vector_check_tuple in cp_tuples_list:
                 VectorCP = True
             vector_list.append((vector.BkrId, vector.BkrSP, vector.BkdId, vector.BkdSP, VectorCP))
-        feature_cp_duration = str(proj_dict[FeatureId].duration)
-        chart_label = 'Team: ' + Team + ', Feature: ' + str(FeatureId) + ', Rank=' + str(Rank) + ', CP Duration='\
-                      + feature_cp_duration + '\\n' + Summary.replace('"',"'")
+        feature_cp_duration = 'CP=' + str(proj_dict[FeatureId].duration)
+        chart_label = Team + '-' + str(FeatureId) + '[' + str(Rank) + '] ' + feature_cp_duration + ': ' + Summary.replace('"',"'")
 
         dot_data = template.render(chart_label = chart_label, clusters = cluster_dict, vectors = vector_list)
         dot_file = Team + '-' + str(FeatureId) + '.dot'
         png_file = Team + '-' + str(FeatureId) + '.png'
-
+        
         with open(dot_file, mode='w') as file_object:
             print(dot_data, file=file_object)
-        command = 'dot -Tpng ' + dot_file + ' -o ' + png_file
-        print(command)
-        os.system(command)
-##            check_call(['dot','-Tpng',dot_file,'-o',png_file])
+
+        check_call(['dot','-Tpng',dot_file,'-o',png_file])
 ##        os.remove(dot_file)
 
 

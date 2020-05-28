@@ -1,0 +1,40 @@
+digraph G {
+    label = "{{chart_label}}";
+    ranksep = .1
+    {% for sprint, stories in clusters.items() %}
+    subgraph cluster_{{ loop.index }} {
+        style=filled;
+        color=lightgrey;
+        {% set ns = namespace(sp_total = 0) %}
+        node [style=filled,color=white];
+        {% for storyId, storySP, storyCP in stories %}
+        {% if storyCP == True %}
+        "{{ storyId }} ({{ storySP }})" [fontcolor=red];
+        {% endif %}
+        {% endfor %}
+        {% for storyId, storySP, storyCP in stories %}
+        {% set ns.sp_total = ns.sp_total + storySP %}
+        {% if loop.index < loop.length %}
+        "{{ storyId }} ({{ storySP }})" ->       
+        {% else %}
+        "{{ storyId }} ({{ storySP }})"
+        {% endif %}
+        {% if loop.index == loop.length %}
+        {% if loop.index > 1 %}
+        [style=invis];
+        {% else %}
+        ;
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        label = "{{ sprint }} ({{ ns.sp_total }})";
+    }
+    {% endfor %}
+    {% for storyId, storySP, blockerId, blockerSP, vectorCP in vectors %}
+    {% if vectorCP == True %}
+    "{{ storyId }} ({{ storySP }})" -> "{{ blockerId }} ({{ blockerSP }})" [color=red];
+    {% else %}
+    "{{ storyId }} ({{ storySP }})" -> "{{ blockerId }} ({{ blockerSP }})";
+    {% endif %}
+    {% endfor %}
+}

@@ -36,6 +36,7 @@ cust['Parent'] = cust['Parent'].astype(int)
 
 features = cust.loc[(cust['Type'] == 'Feature')].copy()
 features = features[['Id','Summary']]
+features['Summary'] = features['Summary'].fillna('---')
 features.rename(columns={'Id' : 'FeatureId'}, inplace=True)
 features = features.merge(rank, how='right', left_on='FeatureId', right_on='FeatureId')
 
@@ -107,6 +108,8 @@ for FeatureId in FeatureIds:
 Teams = features['Team'].unique().tolist()
 for Team in Teams:
     team_data = features.loc[features['Team'] == Team]
+    print(" *** ", Team)
+    print(team_data)
     
     FeatureIds = team_data[team_data['Team'] == Team]['FeatureId'].unique().tolist()
     for FeatureId in FeatureIds:
@@ -133,7 +136,9 @@ for Team in Teams:
         for vector in vector_data.itertuples():
             vector_list.append((vector.BkrId, vector.BkrSP, vector.BkdId, vector.BkdSP))
 
+##        print(FeatureId, Summary)
         chart_label = Team + '-' + str(FeatureId) + '[' + str(Rank) + ']: ' + Summary.replace('"',"'")
+##        chart_label = Team + '-' + str(FeatureId) + '[' + str(Rank) + ']: ' + Summary
 
         dot_data = template.render(chart_label = chart_label, clusters = cluster_dict, vectors = vector_list)
         dot_file = Team + '-' + str(FeatureId) + '.dot'
@@ -143,6 +148,6 @@ for Team in Teams:
             print(dot_data, file=file_object)
 
         check_call(['dot','-Tpng',dot_file,'-o',png_file])
-        os.remove(dot_file)
+##        os.remove(dot_file)
 
 
