@@ -1,7 +1,7 @@
 digraph G {
     label = "{{chart_label}}";
     ranksep = .1
-    {% for sprint, stories in clusters.items() %}
+    {% for sprint, stories in sprints.items() %}
     subgraph cluster_{{ loop.index }} {
         style=filled;
         color=lightgrey;

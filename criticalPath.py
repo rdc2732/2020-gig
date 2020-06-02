@@ -1,5 +1,13 @@
 ## criticalpath.py - Rick Cottle, for GD-MS MUOS, May 2020.
 ## Expects Python3.  Usage: python criticalPath.py
+## Expects graphviz to be installed from GD-MS FreeLoader
+    # [U] Graph visualization is a way of representing structural
+    #    information as diagrams of abstract graphs and networks. 
+    #
+    # VERSION: 2.38
+    # PUBLISHER: www.graphviz.org
+    # eSAC: 46432
+    # Scan:  11/17/2014  PASS
 
 ## General library imports
 import os
@@ -28,7 +36,7 @@ jenv = jinja2.Environment(loader = loader, trim_blocks = True, lstrip_blocks = T
 template = jenv.get_template('criticalpath.j2')
 
 ## Use Pandas to create data frames that relate all the features, stories and blocked stories.
-##    The source for this data is a 'Feature_Rank_List.xlsm' and 'CriticalPath.csv' spreadsheet.
+##    The source for this data is a 'Feature_Rank_List.xlsm' and 'CriticalPath.xlsx' spreadsheet.
 ##    Feature_Rank_List is a copy of the current PI spreadsheet and CriticalPath comes from an RTC
 ##    shared query (download, open (in Excel), and save as .xlsx).
 
@@ -97,21 +105,9 @@ for FeatureId in FeatureIds:
             proj_dict[FeatureId].link(node_dict[vector.BkrId], node_dict[vector.BkdId])
         proj_dict[FeatureId].update_all()
 
-# And then, calculate the critical path and duration.
-##feature_cp_node_dict = {}
-##feature_cp_link_dict = {}
-##feature_cp_link_dura = {}
-##for FeatureId in FeatureIds:
-##    print('FeatureId: ', FeatureId, proj_dict[FeatureId].get_critical_path(), proj_dict[FeatureId].duration)
+## 3) Finally, create the graphs for each Feature.
 
-## 3) Loop through the Pandas data.  Print each Feature's data to the template:
-##    Team, FeatureId, Summary: goes to chart label
-##      Sprint: goes to the cluster label
-##          [(StoryId, SP)]: list of stories/SP goes to cluster
-##      [(StoryId, SP, BlockedId, SP)] list of vectors goes to the chart
-##
-##        clusters = {} # For each Feature, build a dictionary of clusters {PlannedFor: [(story, SP)]}
-
+# Loop through Teams and Features.  Collect the stories in each Sprint
 Teams = features['Team'].unique().tolist()
 for Team in Teams:
     team_data = features.loc[features['Team'] == Team]
@@ -124,13 +120,15 @@ for Team in Teams:
         PlannedFors = stories.loc[stories['FeatureId'] == FeatureId]['PlannedFor'].unique().tolist()
         PlannedFors.sort()
 
-        cluster_dict = {}
+        sprint_dict = {}
         for PlannedFor in PlannedFors:
             StoryIds = stories.loc[(stories['FeatureId'] == FeatureId) & (stories['PlannedFor'] == PlannedFor)]['Id'].unique().tolist()
             StoryIds.sort()
             story_list = []
             story_cp_list = []
             story_cp_list_objects = proj_dict[FeatureId].get_critical_path()
+
+            # append story objects to the critical path project objects 
             if story_cp_list_objects is not None:
                 for object in story_cp_list_objects:
                     story_cp_list.append(int(str(object)))
@@ -141,8 +139,9 @@ for Team in Teams:
                 if StoryId in story_cp_list:
                     StoryCP = True
                 story_list.append((StoryId, StorySP, StoryCP))
-            cluster_dict[PlannedFor] = story_list
+            sprint_dict[PlannedFor] = story_list
 
+        # create list of dependency links; add them to the critical path project objects
         vector_list = []
         cp_tuples_list = []
         if len(story_cp_list) > 1:
@@ -156,20 +155,20 @@ for Team in Teams:
             if vector_check_tuple in cp_tuples_list:
                 VectorCP = True
             vector_list.append((vector.BkrId, vector.BkrSP, vector.BkdId, vector.BkdSP, VectorCP))
+
+        # define rest of information for generating the dependency graph (.dot format)
         feature_cp_duration = str(proj_dict[FeatureId].duration)
         chart_label = 'Team: ' + Team + ', Feature: ' + str(FeatureId) + ', Rank=' + str(Rank) + ', CP Duration='\
                       + feature_cp_duration + '\\n' + Summary.replace('"',"'")
 
-        dot_data = template.render(chart_label = chart_label, clusters = cluster_dict, vectors = vector_list)
+        dot_data = template.render(chart_label = chart_label, sprints = sprint_dict, vectors = vector_list)
         dot_file = Team + '-' + str(FeatureId) + '.dot'
         png_file = Team + '-' + str(FeatureId) + '.png'
 
+        # use dot to generate the png file
         with open(dot_file, mode='w') as file_object:
             print(dot_data, file=file_object)
-        command = 'dot -Tpng ' + dot_file + ' -o ' + png_file
-        print(command)
-        os.system(command)
-##            check_call(['dot','-Tpng',dot_file,'-o',png_file])
-##        os.remove(dot_file)
+        check_call(['dot','-Tpng',dot_file,'-o',png_file])
+        os.remove(dot_file)
 
 
